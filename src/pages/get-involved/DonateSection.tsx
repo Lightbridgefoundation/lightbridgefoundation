@@ -1,10 +1,17 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Heart } from 'lucide-react'
+import { Gift, Heart } from 'lucide-react'
 import { useDonate } from '@/context/DonateContext'
 import { cn } from '@/lib/utils'
 
 const EASE = [0.22, 1, 0.36, 1] as [number, number, number, number]
+
+type Frequency = 'one-time' | 'monthly'
+
+const FREQUENCIES: { value: Frequency; label: string }[] = [
+  { value: 'one-time', label: 'One-time' },
+  { value: 'monthly', label: 'Monthly' },
+]
 
 interface Chip {
   amount: string
@@ -12,16 +19,17 @@ interface Chip {
 }
 
 const CHIPS: Chip[] = [
-  { amount: '$25', impact: 'pantry staples for a family' },
+  { amount: '$20', impact: 'pantry staples for a family' },
   { amount: '$50', impact: 'fresh food for a family for a week' },
-  { amount: '$120', impact: 'youth program materials for a term' },
-  { amount: '$300', impact: 'helps fund a community excursion' },
-  { amount: 'Custom', impact: 'any amount builds a bridge' },
+  { amount: '$100', impact: 'emergency relief for a family in crisis' },
+  { amount: '$150', impact: 'youth program materials for a term' },
+  { amount: 'Other', impact: 'any amount builds a bridge' },
 ]
 
 export default function DonateSection() {
   const { openDonate } = useDonate()
   const [selected, setSelected] = useState('$50')
+  const [frequency, setFrequency] = useState<Frequency>('one-time')
 
   return (
     <section
@@ -80,9 +88,51 @@ export default function DonateSection() {
             className="mx-auto mt-6 max-w-[640px] leading-[1.7] text-white/85"
           >
             We have no salaries, no honorariums, no admin overheads. Your
-            donation funds food relief, vulnerable families, youth programs,
-            community activities and local partnerships — directly.
+            donation helps us extend our faith-driven, grassroots services
+            across Holroyd and beyond — funding food relief, vulnerable
+            families, youth programs, community activities and local
+            partnerships, directly. Choose a one-time gift or become a monthly
+            supporter.
           </motion.p>
+
+          {/* Frequency toggle */}
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-15% 0px' }}
+            transition={{ duration: 0.7, ease: EASE, delay: 0.25 }}
+            className="mt-10 flex justify-center"
+            role="group"
+            aria-label="Donation frequency"
+          >
+            <div className="inline-flex flex-wrap justify-center gap-1.5 rounded-full border border-white/20 bg-white/5 p-1.5">
+              {FREQUENCIES.map(({ value, label }) => {
+                const active = frequency === value
+                return (
+                  <button
+                    key={value}
+                    type="button"
+                    onClick={() => setFrequency(value)}
+                    aria-pressed={active}
+                    className={cn(
+                      'relative min-h-11 rounded-full px-7 py-2.5 font-inter text-[0.92rem] font-semibold transition-colors duration-300',
+                      active ? 'text-navy-900' : 'text-white/70 hover:text-white',
+                    )}
+                  >
+                    {active && (
+                      <motion.span
+                        layoutId="frequency-indicator"
+                        transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+                        className="absolute inset-0 rounded-full bg-gold-500"
+                        aria-hidden="true"
+                      />
+                    )}
+                    <span className="relative">{label}</span>
+                  </button>
+                )
+              })}
+            </div>
+          </motion.div>
 
           {/* Impact chips */}
           <div className="mt-10 flex flex-wrap items-stretch justify-center gap-3">
@@ -145,7 +195,7 @@ export default function DonateSection() {
               className="mt-10 inline-flex min-h-11 items-center gap-2 rounded-full bg-gold-500 px-10 py-4 font-inter text-[1.05rem] font-semibold tracking-[0.01em] text-navy-900 transition-all duration-300 hover:-translate-y-0.5 hover:bg-gold-400 hover:shadow-gold-glow active:scale-[0.97]"
             >
               <Heart className="h-5 w-5" aria-hidden="true" />
-              Donate Today
+              {frequency === 'monthly' ? 'Give Monthly' : 'Donate Today'}
             </button>
           </motion.div>
 
@@ -153,8 +203,22 @@ export default function DonateSection() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true, margin: '-15% 0px' }}
+            transition={{ duration: 0.8, ease: EASE, delay: 0.7 }}
+            className="mx-auto mt-8 flex max-w-[520px] items-start justify-center gap-2.5 text-[0.85rem] font-medium leading-[1.6] text-white/80"
+          >
+            <Gift className="mt-0.5 h-4 w-4 shrink-0 text-gold-400" aria-hidden="true" />
+            <span>
+              Our thank-you: supporters who donate $100 or more, or sign up to a
+              monthly contribution, receive a LightBridge thank-you gift.
+            </span>
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true, margin: '-15% 0px' }}
             transition={{ duration: 0.8, ease: EASE, delay: 0.8 }}
-            className="mt-8 text-[0.85rem] font-medium text-white/70"
+            className="mt-6 text-[0.85rem] font-medium text-white/70"
           >
             LightBridge Foundation is an ACNC-registered Public Benevolent
             Institution. ABN 89 859 003 724.

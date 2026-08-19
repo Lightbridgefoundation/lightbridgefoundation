@@ -75,7 +75,7 @@ export default function InterestForm({ interest, onInterestChange }: InterestFor
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-25% 0px' }}
           transition={{ duration: 0.8, ease: EASE }}
-          className="mx-auto w-full max-w-[640px] rounded-[20px] border border-navy-100 bg-white p-8 shadow-card lg:p-10"
+          className="mx-auto w-full max-w-[640px] rounded-[20px] border border-navy-100 bg-white p-6 shadow-card sm:p-8 lg:p-10"
         >
           <AnimatePresence mode="wait">
             {submitted ? (

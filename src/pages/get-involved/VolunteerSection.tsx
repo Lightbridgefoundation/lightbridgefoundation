@@ -100,6 +100,11 @@ export default function VolunteerSection({ onApply }: { onApply: () => void }) {
               From packing hampers to mentoring teens, there's a role for every
               schedule and skill set.
             </p>
+            <p className="mt-4 max-w-[420px] text-[0.95rem] font-medium leading-[1.7] text-navy-800">
+              Our team is primarily made up of African immigrants and refugees —
+              when you volunteer, you join a culturally led community effort,
+              for community and by community.
+            </p>
             <button
               type="button"
               onClick={onApply}
