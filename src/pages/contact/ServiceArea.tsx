@@ -39,7 +39,8 @@ export default function ServiceArea() {
             transition={{ duration: 0.6, ease: EASE, delay: 0.1 }}
             className="mt-4 text-[clamp(1.1rem,1.6vw,1.3rem)] leading-[1.65] text-ink"
           >
-            We serve families across twelve Western Sydney communities:
+            We operate from Holroyd as our major hub, serving families across
+            twelve Western Sydney communities:
           </motion.p>
           <div className="mt-6 flex flex-wrap gap-2.5">
             {SUBURBS.map((suburb, i) => {

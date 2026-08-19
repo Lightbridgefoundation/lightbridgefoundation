@@ -17,7 +17,7 @@ export default function ReportSpotlight() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: '-25% 0px' }}
           transition={{ duration: 0.7, ease: EASE }}
-          className="flex flex-col rounded-2xl bg-navy-800 p-10 text-white shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover"
+          className="flex flex-col rounded-2xl bg-navy-800 p-6 text-white shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover sm:p-10"
         >
           <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gold-100">
             <FileText className="h-6 w-6 text-gold-500" strokeWidth={1.75} aria-hidden="true" />
@@ -44,7 +44,7 @@ export default function ReportSpotlight() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: '-25% 0px' }}
           transition={{ duration: 0.7, ease: EASE }}
-          className="flex flex-col rounded-2xl bg-gold-100 p-10 text-navy-800 shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover"
+          className="flex flex-col rounded-2xl bg-gold-100 p-6 text-navy-800 shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover sm:p-10"
         >
           <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-navy-800">
             <PenLine className="h-6 w-6 text-gold-400" strokeWidth={1.75} aria-hidden="true" />

@@ -42,7 +42,9 @@ export function Youth() {
             Fifteen young people meet weekly to grow into confident community
             leaders. Sessions blend mental wellbeing, financial literacy, life
             skills, hygiene education, mentoring and community leadership —
-            all in a safe, culturally proud space.
+            all in a safe, culturally proud space. As they grow, capacity
+            building continues with employment support and referral services
+            that help young people find stability and growth beyond the group.
           </motion.p>
 
           <ul className="mt-7 flex flex-wrap gap-2.5" aria-label="Session topics">
@@ -141,9 +143,11 @@ export function Cultural() {
             transition={{ duration: 0.7, ease: EASE, delay: 0.08 }}
             className="mt-6 leading-[1.7] text-white/85"
           >
-            Our Cultural Youth Dance Group carries African heritage onto
-            Western Sydney's biggest stages — building confidence, cultural
-            identity and leadership in young performers.
+            Our cultural programs carry African heritage onto Western Sydney's
+            biggest stages — cultural dance, acting and singing tailored to
+            the community's needs — building confidence, cultural identity and
+            leadership in young performers while keeping culture alive across
+            generations.
           </motion.p>
 
           <motion.div

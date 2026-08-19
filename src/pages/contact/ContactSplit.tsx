@@ -70,13 +70,13 @@ const INFO_CARDS = [
   {
     Icon: MapPin,
     title: 'Where we are',
-    value: 'Western Sydney, NSW, Australia',
-    desc: 'Major hub: Holroyd. Serving Bankstown, Chester Hill, Guildford, Fairfield, Pendle Hill, Schofield, Blacktown, Mt Druitt, St Mary\u2019s, Penrith & Glenmore Park.',
+    value: '24-27 Crescent St, Holroyd NSW 2142',
+    desc: 'Our major hub is Holroyd. Serving Bankstown, Chester Hill, Guildford, Fairfield, Pendle Hill, Schofield, Blacktown, Mt Druitt, St Mary\u2019s, Penrith & Glenmore Park.',
   },
   {
     Icon: BadgeCheck,
     title: 'Charity details',
-    value: 'ABN 89 859 003 724',
+    value: 'ABN 89 859 003 724 · INC 2400448',
     desc: 'ACNC-registered Public Benevolent Institution · 100% volunteer-run.',
   },
   {
@@ -146,7 +146,7 @@ export default function ContactSplit() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-20% 0px' }}
             transition={{ duration: 0.7, ease: EASE }}
-            className="scroll-mt-24 rounded-[20px] border border-navy-100 bg-white p-8 shadow-card lg:p-10"
+            className="scroll-mt-24 rounded-[20px] border border-navy-100 bg-white p-6 shadow-card sm:p-8 lg:p-10"
           >
             <AnimatePresence mode="wait">
               {submitted ? (
