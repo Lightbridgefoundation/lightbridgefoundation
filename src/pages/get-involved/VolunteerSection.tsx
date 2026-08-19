@@ -5,7 +5,6 @@ import {
   CalendarHeart,
   ClipboardList,
   GraduationCap,
-  Languages,
   Megaphone,
   ShieldCheck,
   ShoppingBasket,
@@ -30,19 +29,19 @@ const ROLES: Role[] = [
   {
     Icon: GraduationCap,
     title: 'Youth Mentoring',
-    commitment: 'Weekly · Blacktown area',
+    commitment: 'Weekly',
     blurb: 'Guide young people (8-24) through life skills, study and confidence.',
   },
   {
     Icon: CalendarHeart,
     title: 'Event Assistance',
     commitment: 'Seasonal',
-    blurb: 'Help run excursions, festival performances and family fun days.',
+    blurb: 'Help run excursions, festival performances and community events.',
   },
   {
     Icon: ClipboardList,
     title: 'Administration',
-    commitment: 'Remote flexible',
+    commitment: 'Flexible',
     blurb: 'Support coordination, records, grant applications and communications.',
   },
   {
@@ -50,12 +49,6 @@ const ROLES: Role[] = [
     title: 'Community Outreach',
     commitment: 'Flexible',
     blurb: 'Connect with families, schools and services across our 12 suburbs.',
-  },
-  {
-    Icon: Languages,
-    title: 'Cultural & Language Support',
-    commitment: 'Flexible',
-    blurb: 'Use your language skills to help newly arrived families feel at home.',
   },
 ]
 
@@ -168,8 +161,8 @@ export default function VolunteerSection({ onApply }: { onApply: () => void }) {
                 <ShieldCheck className="h-5 w-5 text-gold-500" strokeWidth={1.75} aria-hidden="true" />
               </span>
               <p className="text-[0.95rem] font-medium leading-[1.7] text-navy-800">
-                No experience? No problem. Every volunteer is inducted,
-                supported and covered by our insurance.
+                No experience? No problem. Our volunteers are supported and
+                covered by our insurance.
               </p>
             </motion.div>
           </div>

@@ -45,7 +45,7 @@ export default function Programs() {
           { text: 'promise:' },
           { text: 'no one left behind', gold: true },
         ]}
-        lead="From weekly food relief to cultural dance stages, every LightBridge program is free, culturally safe, and run entirely by volunteers: culturally led grassroots services delivered primarily by African immigrants and refugees from our own community."
+        lead="From weekly food relief to cultural dance stages, every LightBridge program is culturally safe and run entirely by volunteers: culturally led grassroots services delivered primarily by African immigrants and refugees from our own community."
         breadcrumb="Our Programs"
       >
         <ul className="mt-9 flex flex-wrap items-center justify-center gap-3" aria-label="Jump to a program">

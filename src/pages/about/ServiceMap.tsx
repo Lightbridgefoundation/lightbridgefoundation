@@ -164,8 +164,8 @@ export default function ServiceMap() {
             />
           </svg>
           <p className="mt-5 max-w-[480px] text-[clamp(1.1rem,1.6vw,1.3rem)] leading-[1.65] text-white/80">
-            From our major hub in Holroyd to Penrith and the Blue Mountains
-            fringe, our volunteers serve across Western Sydney.
+            From our major hub in Holroyd to Penrith, Glenmore Park and beyond,
+            our volunteers serve across Western Sydney.
           </p>
 
           {/* Accessible chip list of all suburbs */}

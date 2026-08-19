@@ -9,9 +9,9 @@ const STORIES = [
     image: '/real-excursion-beach.jpg',
     alt: 'LightBridge community members gathered by the sea at the Port Kembla Beach excursion',
     pill: 'Jan 2025',
-    title: '56 families, one beach, a lifetime first',
+    title: 'Port Kembla Beach: a day of firsts',
     excerpt:
-      'Our annual Port Kembla excursion gave families their very first day by the ocean, a day of laughter, swimming and belonging.',
+      'On 4 January 2025, 56 participants joined our excursion to Port Kembla Beach, many families experiencing the beach for the first time.',
   },
   {
     image: '/cultural-dance.jpg',

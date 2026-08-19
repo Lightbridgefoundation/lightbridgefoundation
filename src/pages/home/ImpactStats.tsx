@@ -12,7 +12,7 @@ const STATS_ROW_ONE: Stat[] = [
   { value: 300, suffix: '+', label: 'people supported annually' },
   { value: 2000, suffix: '+', label: 'food hampers distributed' },
   { value: 40, suffix: '+', label: 'community members in weekly food relief' },
-  { value: 56, suffix: '+', label: 'participants on annual excursions' },
+  { value: 56, suffix: '', label: 'participants on each annual excursion' },
 ]
 
 const STATS_ROW_TWO: Stat[] = [

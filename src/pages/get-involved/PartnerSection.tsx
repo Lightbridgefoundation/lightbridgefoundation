@@ -29,7 +29,7 @@ const PARTNER_TYPES: PartnerType[] = [
   {
     Icon: Users,
     title: 'Workplace Volunteering',
-    blurb: 'Team volunteering days that staff never forget.',
+    blurb: 'Team volunteering that supports food relief, events and programs.',
   },
 ]
 

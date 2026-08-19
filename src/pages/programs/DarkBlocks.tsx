@@ -65,7 +65,7 @@ export function Youth() {
           <div className="mt-9 grid grid-cols-3 gap-6 border-t border-white/15 pt-7">
             <MiniStat dark value={15} label="young people weekly" index={0} />
             <MiniStat dark display="8-24" label="age range" index={1} />
-            <MiniStat dark value={100} suffix="%" label="free" index={2} />
+            <MiniStat dark display="Weekly" label="group sessions" index={2} />
           </div>
 
           <div className="mt-9">
@@ -144,7 +144,7 @@ export function Cultural() {
             className="mt-6 leading-[1.7] text-white/85"
           >
             Our cultural programs carry African heritage onto Western Sydney's
-            biggest stages, cultural dance, acting and singing tailored to
+            stages, cultural dance, acting and singing tailored to
             the community's needs, building confidence, cultural identity and
             leadership in young performers while keeping culture alive across
             generations.
@@ -177,7 +177,7 @@ export function Cultural() {
 
           <div className="mt-9 grid grid-cols-3 gap-6 border-t border-white/15 pt-7">
             <MiniStat dark value={1} label="festival stage in 2025" index={0} />
-            <MiniStat dark value={15} suffix="+" label="young performers" index={1} />
+            <MiniStat dark display="$400" label="festival support received" index={1} />
             <MiniStat dark value={2} label="council partnerships" index={2} />
           </div>
 

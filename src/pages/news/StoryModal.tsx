@@ -120,17 +120,19 @@ export default function StoryModal({ story, onClose }: StoryModalProps) {
                 ))}
               </div>
 
-              <blockquote className="mt-8 border-l-4 border-gold-500 pl-6">
-                <p className="font-fraunces text-[clamp(1.15rem,2vw,1.4rem)] font-medium italic leading-[1.45] text-navy-800">
-                  <span className="mr-1 font-fraunces text-3xl leading-none text-gold-500" aria-hidden="true">
-                    “
-                    </span>
-                  {story.quote.text}
-                </p>
-                <footer className="mt-3 font-inter text-[0.85rem] font-medium text-grey-500">
-                 , {story.quote.attribution}
-                </footer>
-              </blockquote>
+              {story.quote && (
+                <blockquote className="mt-8 border-l-4 border-gold-500 pl-6">
+                  <p className="font-fraunces text-[clamp(1.15rem,2vw,1.4rem)] font-medium italic leading-[1.45] text-navy-800">
+                    <span className="mr-1 font-fraunces text-3xl leading-none text-gold-500" aria-hidden="true">
+                      “
+                      </span>
+                    {story.quote.text}
+                  </p>
+                  <footer className="mt-3 font-inter text-[0.85rem] font-medium text-grey-500">
+                   , {story.quote.attribution}
+                  </footer>
+                </blockquote>
+              )}
 
               <div className="mt-10 flex flex-wrap items-center gap-4 border-t border-navy-100 pt-8">
                 <button

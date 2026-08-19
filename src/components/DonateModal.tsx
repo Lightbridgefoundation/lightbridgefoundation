@@ -3,11 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { HeartHandshake, X } from 'lucide-react'
 import { useDonate } from '@/context/DonateContext'
 
-const IMPACT_CHIPS = [
-  { amount: '$25', label: 'pantry staples for a family' },
-  { amount: '$50', label: 'fresh food for a week' },
-  { amount: '$120', label: 'youth program materials' },
-]
+const AMOUNTS = ['$20', '$50', '$100', '$150']
 
 const MAILTO =
   'mailto:info@lightbridgefoundation.org.au?subject=Donation%20to%20LightBridge%20Foundation'
@@ -104,21 +100,21 @@ export default function DonateModal() {
                 Sydney.
               </p>
 
-              <div className="mt-6 grid gap-3 sm:grid-cols-3">
-                {IMPACT_CHIPS.map((chip) => (
+              <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+                {AMOUNTS.map((amount) => (
                   <div
-                    key={chip.amount}
+                    key={amount}
                     className="rounded-xl bg-gold-100 px-4 py-3 text-center"
                   >
                     <div className="font-fraunces text-xl font-bold text-navy-800">
-                      {chip.amount}
-                    </div>
-                    <div className="mt-1 text-[0.85rem] font-medium leading-snug text-grey-500">
-                      {chip.label}
+                      {amount}
                     </div>
                   </div>
                 ))}
               </div>
+              <p className="mt-3 text-center text-[0.85rem] font-medium leading-snug text-grey-500">
+                One-time or monthly, every amount helps.
+              </p>
 
               <a
                 href={MAILTO}

@@ -41,7 +41,7 @@ export function Partners() {
           transition={{ duration: 0.7, ease: EASE, delay: 0.2 }}
           className="mx-auto mt-10 max-w-[640px] font-fraunces text-xl italic leading-[1.6] text-navy-800"
         >
-          …and the hundreds of local volunteers, families and community leaders
+          …and the local volunteers, families and community leaders
           who are the true bridge.
         </motion.p>
 

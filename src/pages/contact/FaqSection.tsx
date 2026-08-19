@@ -20,7 +20,7 @@ const FAQS = [
   },
   {
     q: 'Do I need experience to volunteer?',
-    a: "No. Every volunteer is inducted and supported, and covered by our insurance. There's a role for every schedule, from weekly food relief to remote admin.",
+    a: "No. Our volunteers are supported and covered by our insurance. There's a role for every schedule, from weekly food relief and youth mentoring to administration and community outreach.",
   },
   {
     q: 'Where does my donation go?',

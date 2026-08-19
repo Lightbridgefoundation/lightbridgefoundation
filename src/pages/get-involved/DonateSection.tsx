@@ -13,18 +13,7 @@ const FREQUENCIES: { value: Frequency; label: string }[] = [
   { value: 'monthly', label: 'Monthly' },
 ]
 
-interface Chip {
-  amount: string
-  impact: string
-}
-
-const CHIPS: Chip[] = [
-  { amount: '$20', impact: 'pantry staples for a family' },
-  { amount: '$50', impact: 'fresh food for a family for a week' },
-  { amount: '$100', impact: 'emergency relief for a family in crisis' },
-  { amount: '$150', impact: 'youth program materials for a term' },
-  { amount: 'Other', impact: 'any amount builds a bridge' },
-]
+const CHIPS: string[] = ['$20', '$50', '$100', '$150', 'Other']
 
 export default function DonateSection() {
   const { openDonate } = useDonate()
@@ -136,7 +125,7 @@ export default function DonateSection() {
 
           {/* Impact chips */}
           <div className="mt-10 flex flex-wrap items-stretch justify-center gap-3">
-            {CHIPS.map(({ amount, impact }, i) => {
+            {CHIPS.map((amount, i) => {
               const isSelected = selected === amount
               return (
                 <motion.button
@@ -155,7 +144,7 @@ export default function DonateSection() {
                   whileTap={{ scale: 0.96 }}
                   aria-pressed={isSelected}
                   className={cn(
-                    'relative flex flex-col items-start gap-0.5 rounded-full border-2 px-6 py-3 text-left transition-colors duration-300',
+                    'relative rounded-full border-2 px-7 py-3 transition-colors duration-300',
                     isSelected
                       ? 'border-gold-500 bg-gold-500 text-navy-900'
                       : 'border-gold-500/60 bg-transparent text-white hover:border-gold-400 hover:text-gold-400',
@@ -170,14 +159,6 @@ export default function DonateSection() {
                     />
                   )}
                   <span className="font-fraunces text-lg font-bold leading-none">{amount}</span>
-                  <span
-                    className={cn(
-                      'text-[0.78rem] font-medium leading-snug',
-                      isSelected ? 'text-navy-900/80' : 'text-white/70',
-                    )}
-                  >
-                    {impact}
-                  </span>
                 </motion.button>
               )
             })}

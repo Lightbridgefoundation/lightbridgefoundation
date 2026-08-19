@@ -13,10 +13,10 @@ const PROGRAM_LINKS = [
 ]
 
 const SOCIALS = [
-  { href: 'https://facebook.com', label: 'Facebook', Icon: Facebook },
-  { href: 'https://instagram.com', label: 'Instagram', Icon: Instagram },
-  { href: 'https://linkedin.com', label: 'LinkedIn', Icon: Linkedin },
-  { href: 'https://youtube.com', label: 'YouTube', Icon: Youtube },
+  { href: '#', label: 'Facebook', Icon: Facebook },
+  { href: '#', label: 'Instagram', Icon: Instagram },
+  { href: '#', label: 'LinkedIn', Icon: Linkedin },
+  { href: '#', label: 'YouTube', Icon: Youtube },
 ]
 
 export default function Footer() {
@@ -120,7 +120,7 @@ export default function Footer() {
       <div className="relative border-t border-white/10">
         <div className="mx-auto flex w-full max-w-container flex-col items-center justify-between gap-4 px-6 py-6 sm:flex-row lg:px-12">
           <p className="text-[0.85rem] text-white/60">
-            © 2025 LightBridge Foundation. All rights reserved.
+            © 2026 LightBridge Foundation. All rights reserved.
           </p>
           <span className="rounded-full border border-gold-500/40 bg-gold-500/10 px-4 py-1.5 font-inter text-[0.78rem] font-semibold uppercase tracking-[0.14em] text-gold-400">
             100% volunteer-run

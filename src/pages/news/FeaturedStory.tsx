@@ -70,38 +70,35 @@ export default function FeaturedStory({ story, onOpen }: FeaturedStoryProps) {
             variants={itemVariants}
             className="mt-5 font-fraunces text-[clamp(2rem,4vw,3.25rem)] font-semibold leading-[1.12] text-navy-800"
           >
-            56 families, one beach, a lifetime of{' '}
-            <span className="italic text-gold-500">firsts</span>
+            {story.title}
           </motion.h2>
 
           <motion.p variants={itemVariants} className="mt-6 leading-[1.7] text-grey-500">
-            For many of the families who boarded our buses to Port Kembla Beach
-            on 4 January 2025, it was the first time they had ever seen the
-            ocean. A day of swimming, shared food and laughter, stress easing,
-            wellbeing lifting, and a community knitting itself closer together.
+            {story.excerpt}
           </motion.p>
 
-          <motion.blockquote variants={itemVariants} className="mt-8 flex gap-4">
-            <motion.span
-              className="font-fraunces text-6xl leading-[0.8] text-gold-500"
-              aria-hidden="true"
-              initial={{ scale: 0 }}
-              whileInView={{ scale: 1 }}
-              viewport={{ once: true, margin: '-20% 0px' }}
-              transition={{ type: 'spring', stiffness: 260, damping: 16, delay: 0.5 }}
-            >
-              “
-            </motion.span>
-            <div>
-              <p className="font-fraunces text-[clamp(1.15rem,2vw,1.4rem)] font-medium italic leading-[1.45] text-navy-800">
-                My children had never felt the sand. Now they ask every week
-                when we can go back.
-              </p>
-              <footer className="mt-3 font-inter text-[0.85rem] font-medium text-grey-500">
-               , A mother from Holroyd
-              </footer>
-            </div>
-          </motion.blockquote>
+          {story.quote && (
+            <motion.blockquote variants={itemVariants} className="mt-8 flex gap-4">
+              <motion.span
+                className="font-fraunces text-6xl leading-[0.8] text-gold-500"
+                aria-hidden="true"
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
+                viewport={{ once: true, margin: '-20% 0px' }}
+                transition={{ type: 'spring', stiffness: 260, damping: 16, delay: 0.5 }}
+              >
+                “
+              </motion.span>
+              <div>
+                <p className="font-fraunces text-[clamp(1.15rem,2vw,1.4rem)] font-medium italic leading-[1.45] text-navy-800">
+                  {story.quote.text}
+                </p>
+                <footer className="mt-3 font-inter text-[0.85rem] font-medium text-grey-500">
+                 , {story.quote.attribution}
+                </footer>
+              </div>
+            </motion.blockquote>
+          )}
 
           <motion.div variants={itemVariants} className="mt-10 flex flex-wrap items-center gap-5">
             <button

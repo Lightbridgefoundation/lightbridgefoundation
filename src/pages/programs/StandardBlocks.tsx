@@ -50,7 +50,7 @@ export function FoodRelief() {
           <div className="mt-9 grid grid-cols-3 gap-6 border-t border-navy-100 pt-7">
             <MiniStat value={2000} suffix="+" label="hampers distributed" index={0} />
             <MiniStat value={40} suffix="+" label="supported weekly" index={1} />
-            <MiniStat value={52} label="weeks a year" index={2} />
+            <MiniStat display="100%" label="volunteer-powered" index={2} />
           </div>
           <div className="mt-9 flex flex-wrap items-center gap-5">
             <NavyOutlineLink to="/contact?topic=support">Get Support</NavyOutlineLink>
@@ -83,7 +83,7 @@ export function Casework() {
             className="mt-6 leading-[1.7] text-grey-500"
           >
             When life gets hard, domestic violence, housing instability,
-            mental-health challenges, our trained volunteers walk beside
+            mental-health challenges, our volunteers walk beside
             people with one-on-one support, safety planning, referrals and
             help navigating services. Rooted in faith, our psychosocial
             counselling offers compassionate guidance through family
@@ -142,7 +142,7 @@ export function Referrals() {
         <FramedImage
           src="/real-community-art.jpg"
           alt="A multicultural community family fun day in a Western Sydney park with stalls, families and shared food"
-          badge="Every referral followed through"
+          badge="Advocacy, referrals & guidance"
         />
         <div>
           <ProgramHeading eyebrow="Program 06 · Always On" title="Community Support & Referrals" />
