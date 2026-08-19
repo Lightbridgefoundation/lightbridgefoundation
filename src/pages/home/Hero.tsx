@@ -161,9 +161,10 @@ export default function Hero() {
             data-hero-lead
             className="mt-8 max-w-[520px] text-[clamp(1.1rem,1.6vw,1.3rem)] leading-[1.65] text-white/85"
           >
-            We bridge hope and community — supporting culturally diverse
-            families across Western Sydney with food relief, youth programs,
-            casework and connection. 100% volunteer-run.
+            We are a grassroots charity made up primarily of African immigrants
+            and refugees — rooted in faith and cultural consciousness, serving
+            Western Sydney from our Holroyd hub with food relief, youth
+            programs, casework and connection. 100% volunteer-run.
           </p>
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <button

@@ -1,5 +1,6 @@
 import Hero from '@/pages/home/Hero'
 import WhoWeAre from '@/pages/home/WhoWeAre'
+import QuoteBand from '@/pages/home/QuoteBand'
 import ImpactStats from '@/pages/home/ImpactStats'
 import ProgramsSection from '@/pages/home/ProgramsSection'
 import StoryHighlight from '@/pages/home/StoryHighlight'
@@ -12,6 +13,7 @@ export default function Home() {
     <>
       <Hero />
       <WhoWeAre />
+      <QuoteBand />
       <ImpactStats />
       <ProgramsSection />
       <StoryHighlight />

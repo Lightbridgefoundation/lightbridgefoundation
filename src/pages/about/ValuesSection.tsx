@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Award, Heart, ShieldCheck, TrendingUp, Users } from 'lucide-react'
+import { Award, BadgeCheck, Handshake, Heart, ShieldCheck, TrendingUp } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import SectionHeading from '@/components/SectionHeading'
 
@@ -12,11 +12,12 @@ interface Value {
 }
 
 const VALUES: Value[] = [
-  { Icon: Heart, title: 'Compassion', text: 'We meet every person with empathy, never judgement.' },
-  { Icon: Users, title: 'Community', text: 'We are neighbours helping neighbours — led by locals, for locals.' },
-  { Icon: ShieldCheck, title: 'Cultural Safety', text: 'Every culture is respected, celebrated and safe here.' },
-  { Icon: TrendingUp, title: 'Empowerment', text: 'We build skills and confidence, not dependency.' },
+  { Icon: Heart, title: 'Faith & Compassion', text: 'Rooted in faith, we meet every person with love, care and empathy — never judgement.' },
+  { Icon: TrendingUp, title: 'Community Empowerment', text: 'For Community, By Community — we build skills and confidence, not dependency.' },
+  { Icon: ShieldCheck, title: 'Inclusivity & Cultural Consciousness', text: 'Every culture is respected, celebrated and safe here.' },
   { Icon: Award, title: 'Dignity', text: 'Support is offered with respect — every person, every time.' },
+  { Icon: BadgeCheck, title: 'Integrity & Accountability', text: 'Every dollar and every decision goes to our charitable purpose — openly and honestly.' },
+  { Icon: Handshake, title: 'Collaboration & Partnership', text: 'We work hand in hand with churches, councils and community partners to go further together.' },
 ]
 
 export default function ValuesSection() {
@@ -32,7 +33,7 @@ export default function ValuesSection() {
           }
         />
 
-        <div className="mt-16 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-5">
+        <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {VALUES.map(({ Icon, title, text }, i) => (
             <motion.div
               key={title}

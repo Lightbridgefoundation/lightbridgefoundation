@@ -3,8 +3,8 @@ import { motion } from 'framer-motion'
 const EASE = [0.22, 1, 0.36, 1] as [number, number, number, number]
 
 const PARAGRAPHS = [
-  "LightBridge Foundation grew from a simple truth: in Western Sydney's richly diverse neighbourhoods, too many newly arrived families, women escaping violence, and young people were falling through the gaps — unseen by systems that weren't built with them in mind.",
-  'Our volunteers — locals, parents, students, community leaders — built the bridge themselves. Weekly food relief. A youth group. Casework for families in crisis. Beach days for children who had never seen the ocean. Cultural stages where young dancers reclaim their heritage with pride.',
+  'LightBridge Foundation — formerly known as Favourite Child Care Inc — is a non-profit organisation made up primarily of African immigrants and refugees. We grew from a simple truth: in Western Sydney\u2019s richly diverse neighbourhoods, too many newly arrived families, women escaping violence, and young people were falling through the gaps — unseen by systems that weren\u2019t built with them in mind.',
+  'So our community built the bridge itself. For Community, By Community: our volunteers — locals, parents, students, community leaders — deliver culturally led grassroots services tailored to the unique needs of our people. Weekly food relief. A youth group. Casework for families in crisis. Beach days for children who had never seen the ocean. Cultural stages where young dancers reclaim their heritage with pride.',
   'Today, as LightBridge Foundation, we carry that same grassroots heart under a new name and a renewed promise: bridging hope, building community, empowering futures.',
 ]
 
@@ -12,6 +12,8 @@ const FACT_CHIPS = [
   'ACNC Registered',
   'Public Benevolent Institution',
   'ABN 89 859 003 724',
+  'INC 2400448',
+  '24-27 Crescent St, Holroyd NSW 2142',
   '100% Volunteer-Led',
 ]
 
@@ -50,6 +52,16 @@ export default function StorySection() {
               </motion.p>
             ))}
           </div>
+
+          <motion.p
+            initial={{ opacity: 0, y: 32 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-20% 0px' }}
+            transition={{ duration: 0.7, ease: EASE, delay: 0.25 }}
+            className="mt-8 border-l-4 border-gold-500 pl-5 font-fraunces text-[clamp(1.25rem,2.2vw,1.6rem)] font-semibold italic leading-[1.4] text-navy-800"
+          >
+            “For Community, By Community.”
+          </motion.p>
 
           <ul className="mt-8 flex flex-wrap gap-3" aria-label="Organisation facts">
             {FACT_CHIPS.map((chip, i) => (

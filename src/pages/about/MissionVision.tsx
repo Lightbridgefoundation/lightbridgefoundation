@@ -36,7 +36,7 @@ export default function MissionVision() {
             viewport={{ once: true, margin: '-25% 0px' }}
             transition={{ duration: 0.7, ease: EASE }}
             whileHover={{ y: -4 }}
-            className="group relative overflow-hidden rounded-[20px] bg-gradient-to-br from-navy-600 to-navy-800 p-12 shadow-card"
+            className="group relative overflow-hidden rounded-[20px] bg-gradient-to-br from-navy-600 to-navy-800 p-7 shadow-card sm:p-12"
           >
             {/* Gold top arc accent */}
             <svg

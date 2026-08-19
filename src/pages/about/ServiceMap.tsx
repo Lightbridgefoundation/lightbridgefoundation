@@ -9,6 +9,44 @@ interface Suburb {
   hub?: boolean
 }
 
+interface Lga {
+  name: string
+  suburbs: string
+  hub?: boolean
+}
+
+const LGAS: Lga[] = [
+  {
+    name: 'Cumberland LGA',
+    suburbs: 'Auburn, Berala, Greystanes, Granville, Harris Park, Lidcombe, Merrylands, Pemulwuy, South Granville, Wentworthville, Holroyd',
+    hub: true,
+  },
+  {
+    name: 'Parramatta LGA',
+    suburbs: 'Parramatta, Epping, Carlingford, Dundas, Oatlands, North Parramatta, Westmead, Rosehill, Harris Park',
+  },
+  {
+    name: 'Blacktown LGA',
+    suburbs: 'Blacktown, Rooty Hill, Mount Druitt, St Marys, Seven Hills, Kings Langley, Toongabbie, Doonside, Glenwood, Prospect',
+  },
+  {
+    name: 'Penrith LGA',
+    suburbs: 'Penrith, St Marys, South Penrith, Werrington, Jamisontown, Cranebrook, Kingswood, Glenmore Park, Emu Plains',
+  },
+  {
+    name: 'Liverpool LGA',
+    suburbs: 'Liverpool, Moorebank, Casula, Chipping Norton, Hammondville, Prestons, Hoxton Park, Edmondson Park, Busby',
+  },
+  {
+    name: 'Canterbury-Bankstown LGA',
+    suburbs: 'Canterbury, Campsie, Belmore, Lakemba, Hurlstone Park, Earlwood, Punchbowl, Wiley Park, Chester Hill',
+  },
+  {
+    name: 'Campbelltown LGA',
+    suburbs: 'Campbelltown, Ingleburn, Macquarie Fields, Glenfield, Bradbury, Leumeah, Minto, Raby, Kearns',
+  },
+]
+
 const SUBURBS: Suburb[] = [
   { name: 'Holroyd (Major Hub)', x: 420, y: 230, hub: true },
   { name: 'Guildford', x: 388, y: 262 },
@@ -190,6 +228,54 @@ export default function ServiceMap() {
             Stylised service-area map — hover or focus a gold dot to see the community
           </p>
         </motion.div>
+      </div>
+
+      {/* Activity Map — LGA breakdown */}
+      <div className="relative mx-auto w-full max-w-container px-6 pb-[clamp(80px,10vw,140px)] lg:px-12">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-20% 0px' }}
+          transition={{ duration: 0.7, ease: EASE }}
+          className="text-center"
+        >
+          <h3 className="font-fraunces text-[clamp(1.5rem,2.8vw,2.25rem)] font-semibold leading-[1.2] text-white">
+            Activity Map — <span className="italic text-gold-400">seven LGAs</span>
+          </h3>
+          <p className="mx-auto mt-3 max-w-[560px] text-[0.95rem] leading-[1.65] text-white/70">
+            Our programs reach families across seven local government areas of
+            Greater Western Sydney, anchored by our Holroyd hub in Cumberland.
+          </p>
+        </motion.div>
+
+        <ul className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3" aria-label="Local government areas we serve">
+          {LGAS.map((lga, i) => (
+            <motion.li
+              key={lga.name}
+              initial={{ opacity: 0, y: 32 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-15% 0px' }}
+              transition={{ duration: 0.6, ease: EASE, delay: (i % 3) * 0.08 }}
+              className={
+                lga.hub
+                  ? 'rounded-2xl border border-gold-500/70 bg-gold-500/10 p-6'
+                  : 'rounded-2xl border border-white/15 bg-navy-800/60 p-6'
+              }
+            >
+              <p className="flex flex-wrap items-center gap-2 font-fraunces text-lg font-semibold text-white">
+                {lga.name}
+                {lga.hub && (
+                  <span className="rounded-full bg-gold-500 px-3 py-0.5 font-inter text-[0.68rem] font-bold uppercase tracking-[0.14em] text-navy-900">
+                    Holroyd hub
+                  </span>
+                )}
+              </p>
+              <p className="mt-2.5 text-[0.88rem] leading-[1.65] text-white/70">
+                {lga.suburbs}
+              </p>
+            </motion.li>
+          ))}
+        </ul>
       </div>
     </section>
   )
