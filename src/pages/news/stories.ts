@@ -18,6 +18,8 @@ export interface Story {
   alt: string
   paragraphs: string[]
   quote: StoryQuote
+  /** Optional byline shown in the story modal */
+  author?: string
   featured?: boolean
 }
 
@@ -177,5 +179,51 @@ export const STORIES: Story[] = [
       text: 'Last year we watched from the sand. This year we were first into the water.',
       attribution: 'A returning parent',
     },
+  },
+  {
+    id: 'sharing-and-caring-a-vital-cog',
+    category: 'community',
+    meta: 'COMMUNITY · FEB 2025',
+    date: '20 February 2025',
+    title: 'Sharing and caring — a vital cog',
+    excerpt:
+      'Ubuntu teaches us "I am because we are". For the African diaspora in Australia, community support is not a luxury — it is the vital cog that keeps wellbeing, opportunity and culture turning.',
+    image: '/community-event.jpg',
+    alt: 'Multicultural families sharing food and conversation at a community gathering in a Western Sydney park',
+    paragraphs: [
+      'Ubuntu teaches us "I am because we are". For the African diaspora in Australia, community support is not a luxury — it is the vital cog that keeps wellbeing, opportunity and culture turning.',
+      'When people settle far from home, the community becomes family. The first benefit is mental and emotional well-being: a network of people who greet you by name, check in when you go quiet and remind you that you belong.',
+      'The second is economic empowerment. From cooperative savings schemes like stokvels to mentoring and job referrals, community networks open doors that formal systems too often leave closed — turning shared trust into shared prosperity.',
+      'Third, community preserves culture and identity. Language, food, song and story survive when they are practised together, and children grow up proud of where they come from. Fourth, it fuels educational and career growth: advice, tutoring, references and encouragement flow freely between generations.',
+      'And fifth, community provides practical assistance in times of need — food banks, financial aid and emergency accommodation referrals that catch people before they fall. Sharing and caring is not charity; it is how a community holds itself together, one act of kindness at a time.',
+    ],
+    quote: {
+      text: 'I am because we are.',
+      attribution: 'Ubuntu philosophy',
+    },
+    author: 'Fradreck Nyamhunga',
+  },
+  {
+    id: 'the-power-of-community',
+    category: 'community',
+    meta: 'COMMUNITY · FEB 2025',
+    date: '19 February 2025',
+    title: 'The Power of Community',
+    excerpt:
+      '"Sticks in a bundle are unbreakable," says the Bondei proverb. From unity and intergenerational learning to poetry and storytelling, here is how communities grow stronger together.',
+    image: '/cultural-dance.jpg',
+    alt: 'Community members in vibrant African dress celebrating together through cultural performance',
+    paragraphs: [
+      '"Sticks in a bundle are unbreakable," says the Bondei proverb, and the Swahili remind us that unity is strength while division is weakness. Desmond Tutu put it simply: "My humanity is caught up, is inextricably bound up, in yours." Community is not something we have — it is something we do, together.',
+      'The first strategy is to foster unity and collaboration. "When spider webs unite, they can tie up a lion": small efforts, woven together, achieve what no individual could. Shared goals, shared meals and shared work turn neighbours into a force.',
+      'The second is intergenerational learning — "each one teach one". Elders carry wisdom, young people carry energy, and a strong community makes sure the two never stop exchanging gifts.',
+      'The third is open communication. "Wisdom is like a baobab tree; no one individual can embrace it." When people speak honestly and listen generously, the whole community grows wiser than any one voice.',
+      'And the fourth is celebrating cultural art forms — poetry, storytelling, song and dance that carry identity across oceans and generations. A community that tells its own stories never forgets its own strength.',
+    ],
+    quote: {
+      text: 'My humanity is caught up, is inextricably bound up, in yours.',
+      attribution: 'Desmond Tutu',
+    },
+    author: 'Fradreck Nyamhunga',
   },
 ]

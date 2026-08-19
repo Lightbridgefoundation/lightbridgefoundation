@@ -101,6 +101,7 @@ export default function StoryModal({ story, onClose }: StoryModalProps) {
                 </span>
                 <span className="font-inter text-[0.85rem] font-medium text-grey-500">
                   {story.date}
+                  {story.author && ` · By ${story.author}`}
                 </span>
               </div>
 

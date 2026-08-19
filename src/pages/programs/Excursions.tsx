@@ -51,7 +51,7 @@ export default function Excursions() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-15% 0px' }}
           transition={{ duration: 0.8, ease: EASE }}
-          className="relative z-10 mx-auto -mt-24 w-full max-w-[640px] rounded-[20px] bg-white p-10 shadow-card-hover"
+          className="relative z-10 mx-auto -mt-24 w-full max-w-[640px] rounded-[20px] bg-white p-6 shadow-card-hover sm:p-10"
         >
           <p className="font-inter text-[0.78rem] font-bold uppercase tracking-[0.22em] text-gold-500">
             Program 04 · Annual

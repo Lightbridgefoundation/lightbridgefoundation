@@ -32,13 +32,17 @@ export function FoodRelief() {
           >
             Every week, our volunteers distribute fresh fruit and vegetables,
             pantry staples and emergency food support to families doing it
-            tough — alongside community referrals and practical family
-            assistance.
+            tough — alongside transport assistance, community referrals and
+            practical family assistance. When crisis hits, it is a lifeline:
+            emergency relief delivered by people who know the community
+            because they are the community.
           </motion.p>
           <CheckList
             items={[
               'Fresh fruit & vegetables and pantry staples',
               'Emergency food support when crisis hits',
+              'Transport assistance to appointments & essentials',
+              'Referrals for emergency accommodation',
               'Community referrals & family assistance',
               'Powered by partnerships with Foodbank NSW & ACT and OzHarvest',
             ]}
@@ -81,13 +85,18 @@ export function Casework() {
             When life gets hard — domestic violence, housing instability,
             mental-health challenges — our trained volunteers walk beside
             people with one-on-one support, safety planning, referrals and
-            help navigating services. Dignity and confidentiality always come
-            first.
+            help navigating services. Rooted in faith, our psychosocial
+            counselling offers compassionate guidance through family
+            breakdown, substance abuse, settlement difficulties and stress —
+            building resilience with people who share your culture and your
+            story. Dignity and confidentiality always come first.
           </motion.p>
           <CheckList
             items={[
+              'Faith-based psychosocial counselling for family breakdown, substance abuse, settlement difficulties & stress',
               'Safety planning for women experiencing domestic violence',
               'Support through housing instability',
+              'Referrals to drug & alcohol rehabilitation services',
               'Service navigation & specialist referrals',
               'Culturally safe, judgement-free',
             ]}
@@ -145,13 +154,15 @@ export function Referrals() {
             className="mt-6 leading-[1.7] text-grey-500"
           >
             Not sure where to turn? Start with us. We provide advocacy,
-            information and guidance, referrals to specialist services,
-            community resource navigation and support planning — so no one
+            information and guidance, employment support and referrals to
+            specialist services, community resource navigation and support
+            planning — helping people find stability and growth, so no one
             navigates hard times alone.
           </motion.p>
           <CheckList
             items={[
               'Advocacy services',
+              'Employment support & referral services',
               'Referrals to specialist support',
               'Information & guidance',
               'Community resource navigation',

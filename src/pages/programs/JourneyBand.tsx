@@ -4,6 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import { motion } from 'framer-motion'
 import SectionHeading from '@/components/SectionHeading'
+import { cn } from '@/lib/utils'
 
 gsap.registerPlugin(ScrollTrigger, useGSAP)
 
@@ -108,7 +109,7 @@ export default function JourneyBand() {
               opacity={0.9}
             />
           </svg>
-          {NODES.map((node) => (
+          {NODES.map((node, i) => (
             <div
               key={node.label}
               data-journey-node
@@ -125,7 +126,12 @@ export default function JourneyBand() {
               />
               <div
                 data-journey-text
-                className="absolute left-1/2 top-7 w-48 -translate-x-1/2 text-center"
+                className={cn(
+                  'absolute top-7 w-48 text-center',
+                  i === 0 && 'left-0 -translate-x-[15%]',
+                  i === NODES.length - 1 && 'left-full -translate-x-[85%]',
+                  i > 0 && i < NODES.length - 1 && 'left-1/2 -translate-x-1/2',
+                )}
               >
                 <p className="font-fraunces text-xl font-semibold text-gold-400">{node.label}</p>
                 <p className="mt-1.5 text-[0.85rem] leading-[1.5] text-white/70">
