@@ -40,8 +40,8 @@ export const STORIES: Story[] = [
     title: '56 families, one beach, a lifetime of firsts',
     excerpt:
       'For many of the families who boarded our buses to Port Kembla Beach on 4 January 2025, it was the first time they had ever seen the ocean. A day of swimming, shared food and laughter — stress easing, wellbeing lifting, and a community knitting itself closer together.',
-    image: '/beach-excursion.jpg',
-    alt: 'Families and children laughing together on the golden sand at Port Kembla Beach under a blue sky',
+    image: '/real-excursion-beach.jpg',
+    alt: 'LightBridge Foundation community members gathered on the grass by the sea at the Port Kembla Beach excursion, January 2025',
     paragraphs: [
       'For many of the families who boarded our buses to Port Kembla Beach on 4 January 2025, it was the first time they had ever seen the ocean. A day of swimming, shared food and laughter — stress easing, wellbeing lifting, and a community knitting itself closer together.',
       'The buses left Western Sydney early, packed with picnic baskets, beach umbrellas and more excitement than luggage. Some parents had lived in Australia for years without ever making the trip to the coast; when the Pacific finally appeared on the horizon, cheers rolled down every aisle.',
@@ -104,8 +104,8 @@ export const STORIES: Story[] = [
     title: 'A neighbourhood that eats together',
     excerpt:
       'Family recreation days and shared meals are quietly ending isolation across our twelve suburbs.',
-    image: '/community-event.jpg',
-    alt: 'Multicultural families sharing food and conversation at a community fun day in a Western Sydney park',
+    image: '/real-community-art.jpg',
+    alt: 'Community members sharing food and art activities around a table at a LightBridge community gathering',
     paragraphs: [
       'Family recreation days and shared meals are quietly ending isolation across our twelve suburbs.',
       'In parks and community halls across Western Sydney, our family fun days bring together stalls, games, balloons and long shared tables. Children run between activities while elders trade stories over food cooked from a dozen traditions.',
@@ -125,8 +125,8 @@ export const STORIES: Story[] = [
     title: 'From student to mentor: a full-circle story',
     excerpt:
       'Weekly youth group alumni are returning as mentors — leadership grown at home.',
-    image: '/mentoring.jpg',
-    alt: 'A volunteer mentor and a teenage boy smiling over a laptop during a mentoring session',
+    image: '/real-youth-craft.jpg',
+    alt: 'Young people learning together in a hands-on activity at a LightBridge youth group session',
     paragraphs: [
       'Weekly youth group alumni are returning as mentors — leadership grown at home.',
       'Not long ago they were the ones sitting in the circle, learning life skills, financial literacy and study habits from older volunteers. Now those same young people are back — leading activities, tutoring younger kids and modelling what the program makes possible.',
@@ -167,8 +167,8 @@ export const STORIES: Story[] = [
     title: 'Northern Beaches: the tradition grows',
     excerpt:
       'On 10 January 2026, 56 participants joined our second major excursion — family–volunteer bonds deepening with every wave.',
-    image: '/beach-excursion.jpg',
-    alt: 'Community members walking along the shoreline together on the Northern Beaches excursion',
+    image: '/real-excursion-city.jpg',
+    alt: 'Young community members relaxing together on city steps during a LightBridge excursion',
     paragraphs: [
       'On 10 January 2026, 56 participants joined our second major excursion — family–volunteer bonds deepening with every wave.',
       'A year on from Port Kembla, the buses rolled north. Returning families arrived as seasoned beach-goers, towels under their arms, ready to introduce first-timers to the water they had once met for the very first time.',
@@ -188,8 +188,8 @@ export const STORIES: Story[] = [
     title: 'Sharing and caring — a vital cog',
     excerpt:
       'Ubuntu teaches us "I am because we are". For the African diaspora in Australia, community support is not a luxury — it is the vital cog that keeps wellbeing, opportunity and culture turning.',
-    image: '/community-event.jpg',
-    alt: 'Multicultural families sharing food and conversation at a community gathering in a Western Sydney park',
+    image: '/real-youth-venue.jpg',
+    alt: 'LightBridge community members standing together during a youth group outing',
     paragraphs: [
       'Ubuntu teaches us "I am because we are". For the African diaspora in Australia, community support is not a luxury — it is the vital cog that keeps wellbeing, opportunity and culture turning.',
       'When people settle far from home, the community becomes family. The first benefit is mental and emotional well-being: a network of people who greet you by name, check in when you go quiet and remind you that you belong.',
@@ -211,8 +211,8 @@ export const STORIES: Story[] = [
     title: 'The Power of Community',
     excerpt:
       '"Sticks in a bundle are unbreakable," says the Bondei proverb. From unity and intergenerational learning to poetry and storytelling, here is how communities grow stronger together.',
-    image: '/cultural-dance.jpg',
-    alt: 'Community members in vibrant African dress celebrating together through cultural performance',
+    image: '/real-youth-soccer.jpg',
+    alt: 'Young community members playing soccer together in a Western Sydney park',
     paragraphs: [
       '"Sticks in a bundle are unbreakable," says the Bondei proverb, and the Swahili remind us that unity is strength while division is weakness. Desmond Tutu put it simply: "My humanity is caught up, is inextricably bound up, in yours." Community is not something we have — it is something we do, together.',
       'The first strategy is to foster unity and collaboration. "When spider webs unite, they can tie up a lion": small efforts, woven together, achieve what no individual could. Shared goals, shared meals and shared work turn neighbours into a force.',

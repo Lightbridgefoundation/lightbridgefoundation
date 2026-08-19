@@ -6,8 +6,8 @@ const EASE = [0.22, 1, 0.36, 1] as [number, number, number, number]
 
 const STORIES = [
   {
-    image: '/beach-excursion.jpg',
-    alt: 'Families smiling together on the sand at Port Kembla Beach',
+    image: '/real-excursion-beach.jpg',
+    alt: 'LightBridge community members gathered by the sea at the Port Kembla Beach excursion',
     pill: 'Jan 2025',
     title: '56 families, one beach, a lifetime first',
     excerpt:

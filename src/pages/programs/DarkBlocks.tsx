@@ -96,8 +96,8 @@ export function Youth() {
             className="relative overflow-hidden rounded-[20px] shadow-card"
           >
             <img
-              src="/youth-group.jpg"
-              alt="Teenagers and younger kids laughing during a mentoring and life-skills workshop"
+              src="/real-youth-venue.jpg"
+              alt="LightBridge youth group members on an outing together"
               loading="lazy"
               className="aspect-[4/3] w-full object-cover"
             />
@@ -110,8 +110,8 @@ export function Youth() {
             className="relative -mt-[24px] ml-[-24px] w-[55%] overflow-hidden rounded-[20px] border-4 border-navy-900 shadow-card-hover"
           >
             <img
-              src="/mentoring.jpg"
-              alt="A volunteer helping a teenage boy with a financial literacy worksheet"
+              src="/real-youth-craft.jpg"
+              alt="Young people in a hands-on learning activity at a LightBridge youth session"
               loading="lazy"
               className="aspect-[16/10] w-full object-cover"
             />

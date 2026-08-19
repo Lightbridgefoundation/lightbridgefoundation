@@ -37,8 +37,8 @@ function ImagePanel() {
         className="overflow-hidden rounded-[20px] shadow-card-hover"
       >
         <img
-          src="/beach-excursion.jpg"
-          alt="A large group of families laughing together on the golden sand of Port Kembla Beach under a blue sky"
+          src="/real-excursion-beach.jpg"
+          alt="LightBridge Foundation families and volunteers at the Port Kembla Beach excursion, January 2025"
           loading="lazy"
           className="aspect-[16/10] w-full object-cover"
         />

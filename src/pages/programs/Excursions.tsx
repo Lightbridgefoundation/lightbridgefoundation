@@ -26,8 +26,8 @@ export default function Excursions() {
         {/* Cinematic image with parallax */}
         <div className="relative overflow-hidden rounded-[24px] shadow-card">
           <motion.img
-            src="/beach-excursion.jpg"
-            alt="CALD families joyfully experiencing an Australian beach together, many for the first time"
+            src="/real-excursion-beach.jpg"
+            alt="CALD families and volunteers together at the Port Kembla Beach excursion, many experiencing the ocean for the first time"
             loading="lazy"
             initial={{ scale: 1.15, y: '-4%' }}
             whileInView={{ scale: 1.15, y: '4%' }}

@@ -90,8 +90,8 @@ export default function StorySection() {
           <div className="relative rounded-[20px] before:absolute before:inset-0 before:-translate-x-4 before:translate-y-4 before:rounded-[20px] before:border-2 before:border-gold-500/60 before:content-['']">
             <div className="relative overflow-hidden rounded-[20px] shadow-card">
               <img
-                src="/who-we-are.jpg"
-                alt="Volunteers handing fresh fruit and vegetable hampers to smiling families at a community hall"
+                src="/real-excursion-beach.jpg"
+                alt="The LightBridge Foundation community — families and volunteers together at the Port Kembla Beach excursion"
                 loading="lazy"
                 className="aspect-[4/3] w-full object-cover transition-transform duration-[600ms] ease-out hover:scale-105"
               />
