@@ -95,7 +95,7 @@ export default function Hero() {
     <section
       ref={rootRef}
       className="relative flex min-h-[max(640px,calc(100dvh-72px))] items-center overflow-hidden bg-navy-900"
-      aria-label="LightBridge Foundation — welcome"
+      aria-label="LightBridge Foundation welcome"
     >
       {/* Background image + scrim + texture */}
       <div className="absolute inset-0" data-hero-bg>
@@ -113,6 +113,12 @@ export default function Hero() {
           background:
             'linear-gradient(100deg, rgba(14,42,71,0.92) 0%, rgba(14,42,71,0.55) 55%, rgba(14,42,71,0.25) 100%)',
         }}
+        aria-hidden="true"
+      />
+      {/* Extra scrim on small screens: text spans the full width on mobile,
+          so the photo needs a stronger, even dim for readability */}
+      <div
+        className="absolute inset-0 bg-gradient-to-b from-navy-900/75 via-navy-900/60 to-navy-900/80 lg:hidden"
         aria-hidden="true"
       />
       <div className="texture-dots absolute inset-0 opacity-[0.05]" aria-hidden="true" />
@@ -162,7 +168,7 @@ export default function Hero() {
             className="mt-8 max-w-[520px] text-[clamp(1.1rem,1.6vw,1.3rem)] leading-[1.65] text-white/85"
           >
             We are a grassroots charity made up primarily of African immigrants
-            and refugees — rooted in faith and cultural consciousness, serving
+            and refugees, rooted in faith and cultural consciousness, serving
             Western Sydney from our Holroyd hub with food relief, youth
             programs, casework and connection. 100% volunteer-run.
           </p>

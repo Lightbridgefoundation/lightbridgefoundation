@@ -36,7 +36,7 @@ export default function FinalCta() {
           transition={{ duration: 0.7, ease: EASE, delay: 0.2 }}
           className="mx-auto mt-5 max-w-[640px] text-[clamp(1.1rem,1.6vw,1.3rem)] leading-[1.65] text-ink/75"
         >
-          Volunteer, donate or partner — and keep all six bridges standing.
+          Volunteer, donate or partner, and keep all six bridges standing.
         </motion.p>
 
         <motion.div

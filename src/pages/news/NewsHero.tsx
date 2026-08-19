@@ -35,7 +35,7 @@ export default function NewsHero() {
       className="navy-gradient relative flex min-h-[60dvh] items-center overflow-hidden"
       aria-label="News and Stories"
     >
-      {/* Gold glow — fades in first */}
+      {/* Gold glow, fades in first */}
       <motion.div
         className="gold-radial-glow absolute inset-0"
         aria-hidden="true"
@@ -116,7 +116,7 @@ export default function NewsHero() {
           transition={{ duration: 0.6, ease: EASE, delay: 1.0 }}
         >
           Success stories, program updates, volunteer spotlights and youth
-          achievements — the living proof of what community can do.
+          achievements, the living proof of what community can do.
         </motion.p>
       </div>
     </section>

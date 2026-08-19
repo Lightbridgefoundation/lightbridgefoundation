@@ -13,7 +13,7 @@ export default function GetInvolved() {
   const [interest, setInterest] = useState<InterestPathway>('volunteer')
 
   useEffect(() => {
-    document.title = 'Get Involved — LightBridge Foundation'
+    document.title = 'Get Involved | LightBridge Foundation'
   }, [])
 
   const goToForm = useCallback((pathway: InterestPathway) => {

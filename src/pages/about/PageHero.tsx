@@ -13,7 +13,7 @@ export interface HeroChunk {
 
 interface PageHeroProps {
   eyebrow: string
-  /** Title chunks — gold chunks render italic gold-400 with an arc underline. */
+  /** Title chunks, gold chunks render italic gold-400 with an arc underline. */
   title: HeroChunk[]
   lead: string
   breadcrumb: string
@@ -31,7 +31,7 @@ export default function PageHero({ eyebrow, title, lead, breadcrumb, children }:
     target: rootRef,
     offset: ['start start', 'end start'],
   })
-  // Light-drift parallax — glow drifts at ~0.3x scroll speed
+  // Light-drift parallax, glow drifts at ~0.3x scroll speed
   const glowY = useTransform(scrollYProgress, [0, 1], [0, 120])
   const arcY = useTransform(scrollYProgress, [0, 1], [0, 60])
 

@@ -90,7 +90,7 @@ export default function ContactHero() {
             className="mt-8 max-w-[600px] text-[clamp(1.1rem,1.6vw,1.3rem)] leading-[1.65] text-white/85"
           >
             Whether you need support, want to volunteer, or hope to partner or
-            donate — we read every message and reply as soon as our volunteers
+            donate, we read every message and reply as soon as our volunteers
             can.
           </motion.p>
 

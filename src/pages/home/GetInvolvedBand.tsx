@@ -66,7 +66,7 @@ export default function GetInvolvedBand() {
               <span className="italic text-gold-500">Their future.</span>
             </>
           }
-          lead="Whether you give an hour, a dollar, or a partnership — you help bridge hope across Western Sydney."
+          lead="Whether you give an hour, a dollar, or a partnership, you help bridge hope across Western Sydney."
         />
 
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">

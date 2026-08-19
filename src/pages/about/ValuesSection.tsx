@@ -12,11 +12,11 @@ interface Value {
 }
 
 const VALUES: Value[] = [
-  { Icon: Heart, title: 'Faith & Compassion', text: 'Rooted in faith, we meet every person with love, care and empathy — never judgement.' },
-  { Icon: TrendingUp, title: 'Community Empowerment', text: 'For Community, By Community — we build skills and confidence, not dependency.' },
+  { Icon: Heart, title: 'Faith & Compassion', text: 'Rooted in faith, we meet every person with love, care and empathy, never judgement.' },
+  { Icon: TrendingUp, title: 'Community Empowerment', text: 'For Community, By Community, we build skills and confidence, not dependency.' },
   { Icon: ShieldCheck, title: 'Inclusivity & Cultural Consciousness', text: 'Every culture is respected, celebrated and safe here.' },
-  { Icon: Award, title: 'Dignity', text: 'Support is offered with respect — every person, every time.' },
-  { Icon: BadgeCheck, title: 'Integrity & Accountability', text: 'Every dollar and every decision goes to our charitable purpose — openly and honestly.' },
+  { Icon: Award, title: 'Dignity', text: 'Support is offered with respect, every person, every time.' },
+  { Icon: BadgeCheck, title: 'Integrity & Accountability', text: 'Every dollar and every decision goes to our charitable purpose, openly and honestly.' },
   { Icon: Handshake, title: 'Collaboration & Partnership', text: 'We work hand in hand with churches, councils and community partners to go further together.' },
 ]
 

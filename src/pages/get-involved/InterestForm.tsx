@@ -17,7 +17,7 @@ const OPTIONS: { value: InterestPathway; label: string }[] = [
 
 const PLACEHOLDERS: Record<InterestPathway, string> = {
   volunteer: 'Tell us which roles interest you and your availability…',
-  donate: "Tell us how you'd like to give — one-off, regular, or in-kind…",
+  donate: "Tell us how you'd like to give, one-off, regular, or in-kind…",
   partner: "Tell us about your organisation and how you'd like to partner…",
 }
 
@@ -117,7 +117,7 @@ export default function InterestForm({ interest, onInterestChange }: InterestFor
                   />
                 </svg>
                 <h3 className="mt-6 font-fraunces text-[clamp(1.25rem,2vw,1.6rem)] font-semibold text-navy-800">
-                  Thank you — we'll be in touch!
+                  Thank you, we'll be in touch!
                 </h3>
                 <p className="mt-3 leading-[1.7] text-grey-500">
                   Or email us directly at{' '}

@@ -32,7 +32,7 @@ export function FoodRelief() {
           >
             Every week, our volunteers distribute fresh fruit and vegetables,
             pantry staples and emergency food support to families doing it
-            tough — alongside transport assistance, community referrals and
+            tough, alongside transport assistance, community referrals and
             practical family assistance. When crisis hits, it is a lifeline:
             emergency relief delivered by people who know the community
             because they are the community.
@@ -71,7 +71,7 @@ export function Casework() {
         <FramedImage
           src="/casework-support.jpg"
           alt="A support worker and a woman in warm conversation over tea at a community centre table"
-          badge="9 individuals supported in 2024–25"
+          badge="9 individuals supported in 2024-25"
         />
         <div>
           <ProgramHeading eyebrow="Program 03 · Confidential" title="Casework & Advocacy" />
@@ -82,12 +82,12 @@ export function Casework() {
             transition={{ duration: 0.7, ease: EASE, delay: 0.1 }}
             className="mt-6 leading-[1.7] text-grey-500"
           >
-            When life gets hard — domestic violence, housing instability,
-            mental-health challenges — our trained volunteers walk beside
+            When life gets hard, domestic violence, housing instability,
+            mental-health challenges, our trained volunteers walk beside
             people with one-on-one support, safety planning, referrals and
             help navigating services. Rooted in faith, our psychosocial
             counselling offers compassionate guidance through family
-            breakdown, substance abuse, settlement difficulties and stress —
+            breakdown, substance abuse, settlement difficulties and stress , 
             building resilience with people who share your culture and your
             story. Dignity and confidentiality always come first.
           </motion.p>
@@ -117,7 +117,7 @@ export function Casework() {
               aria-hidden="true"
             />
             <p className="font-fraunces text-xl italic leading-[1.6] text-navy-800">
-              “Support is offered with respect — every person, every time.”
+              “Support is offered with respect, every person, every time.”
             </p>
           </motion.blockquote>
           <div className="mt-9">
@@ -156,7 +156,7 @@ export function Referrals() {
             Not sure where to turn? Start with us. We provide advocacy,
             information and guidance, employment support and referrals to
             specialist services, community resource navigation and support
-            planning — helping people find stability and growth, so no one
+            planning, helping people find stability and growth, so no one
             navigates hard times alone.
           </motion.p>
           <CheckList

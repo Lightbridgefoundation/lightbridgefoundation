@@ -103,7 +103,7 @@ export default function PartnerFinalCta() {
             transition={{ duration: 0.7, ease: EASE, delay: 0.35 }}
             className="mx-auto mt-6 max-w-xl text-[clamp(1.1rem,1.6vw,1.3rem)] leading-[1.65] text-white/80"
           >
-            Join LightBridge Foundation today — as a donor, volunteer or
+            Join LightBridge Foundation today, as a donor, volunteer or
             partner.
           </motion.p>
           <motion.div

@@ -15,7 +15,7 @@ const FACTS = [
   },
   {
     title: 'Board oversight',
-    body: 'Our board met twice during the 2024–2025 reporting period, covering compliance, financial oversight, program planning and risk management.',
+    body: 'Our board met twice during the 2024-2025 reporting period, covering compliance, financial oversight, program planning and risk management.',
   },
   {
     title: 'Volunteer working group',
@@ -27,11 +27,11 @@ const FACTS = [
   },
   {
     title: 'Every dollar to purpose',
-    body: 'We are entirely volunteer-run — no salaries, honorariums or admin overheads. Funds are used exclusively for charitable purposes.',
+    body: 'We are entirely volunteer-run, no salaries, honorariums or admin overheads. Funds are used exclusively for charitable purposes.',
   },
   {
     title: 'Annual report',
-    body: 'Our 2024–2025 Annual Report is available on request — email info@lightbridgefoundation.org.au.',
+    body: 'Our 2024-2025 Annual Report is available on request, email info@lightbridgefoundation.org.au.',
   },
 ]
 
@@ -68,7 +68,7 @@ export default function Governance() {
             />
           </svg>
           <p className="mt-5 max-w-[420px] text-[clamp(1.1rem,1.6vw,1.3rem)] leading-[1.65] text-grey-500">
-            Every dollar and every decision goes to our charitable purpose —
+            Every dollar and every decision goes to our charitable purpose , 
             here's how we stay accountable.
           </p>
         </motion.div>

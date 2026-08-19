@@ -192,7 +192,7 @@ export function CheckList({ items, dark = false }: { items: string[]; dark?: boo
   )
 }
 
-/** Mini stat with count-up (numeric) or static display (e.g. "8–24"). */
+/** Mini stat with count-up (numeric) or static display (e.g. "8-24"). */
 export function MiniStat({
   value,
   suffix = '',

@@ -12,27 +12,27 @@ const EASE = [0.22, 1, 0.36, 1] as [number, number, number, number]
 const FAQS = [
   {
     q: 'How do I get food relief support?',
-    a: 'Reach out via the form above or email us — our volunteers will connect you with our weekly food relief in Holroyd and, where needed, refer you to additional services.',
+    a: 'Reach out via the form above or email us, our volunteers will connect you with our weekly food relief in Holroyd and, where needed, refer you to additional services.',
   },
   {
     q: 'Is your support confidential?',
-    a: "Yes. Casework and advocacy — including domestic-violence support — is confidential, culturally safe and judgement-free. If you're in immediate danger, call 000.",
+    a: "Yes. Casework and advocacy, including domestic-violence support, is confidential, culturally safe and judgement-free. If you're in immediate danger, call 000.",
   },
   {
     q: 'Do I need experience to volunteer?',
-    a: "No. Every volunteer is inducted and supported, and covered by our insurance. There's a role for every schedule — from weekly food relief to remote admin.",
+    a: "No. Every volunteer is inducted and supported, and covered by our insurance. There's a role for every schedule, from weekly food relief to remote admin.",
   },
   {
     q: 'Where does my donation go?',
-    a: 'We have no salaries, honorariums or admin overheads. Donations fund food relief, vulnerable families, youth programs, community activities and local partnerships — exclusively charitable purposes.',
+    a: 'We have no salaries, honorariums or admin overheads. Donations fund food relief, vulnerable families, youth programs, community activities and local partnerships, exclusively charitable purposes.',
   },
   {
     q: 'Is LightBridge Foundation a registered charity?',
-    a: 'Yes — registered with the ACNC as a Public Benevolent Institution, ABN 89 859 003 724. Our 2024–2025 Annual Report is available on request.',
+    a: 'Yes, registered with the ACNC as a Public Benevolent Institution, ABN 89 859 003 724. Our 2024-2025 Annual Report is available on request.',
   },
   {
     q: 'Can my business or council partner with you?',
-    a: "Absolutely — we already partner with Blacktown City Council, Cumberland City Council, African Resource Centre, Foodbank NSW & ACT and OzHarvest. Choose 'Partnership' in the form and tell us your idea.",
+    a: "Absolutely, we already partner with Blacktown City Council, Cumberland City Council, African Resource Centre, Foodbank NSW & ACT and OzHarvest. Choose 'Partnership' in the form and tell us your idea.",
   },
 ]
 

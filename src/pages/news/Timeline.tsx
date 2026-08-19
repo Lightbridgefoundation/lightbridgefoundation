@@ -13,28 +13,28 @@ const MILESTONES = [
     text: '40+ community members supported through weekly food relief.',
   },
   {
-    date: '2024–25',
+    date: '2024-25',
     text: '2,000+ food hampers distributed across Western Sydney.',
   },
   {
     date: '4 January 2025',
-    text: 'Port Kembla Beach excursion — 56 CALD participants, many seeing the ocean for the first time.',
+    text: 'Port Kembla Beach excursion, 56 CALD participants, many seeing the ocean for the first time.',
   },
   {
     date: '2025',
     text: 'Cultural Youth Dance Group performs at Blacktown Festival.',
   },
   {
-    date: '2024–25',
+    date: '2024-25',
     text: '9 individuals supported through domestic violence, housing and mental-health casework.',
   },
   {
     date: '10 January 2026',
-    text: 'Northern Beaches excursion — the tradition continues with 56 participants.',
+    text: 'Northern Beaches excursion, the tradition continues with 56 participants.',
   },
   {
     date: 'Today',
-    text: '300+ people supported annually, 100% volunteer-powered — and just getting started.',
+    text: '300+ people supported annually, 100% volunteer-powered, and just getting started.',
   },
 ]
 

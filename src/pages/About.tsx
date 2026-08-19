@@ -10,7 +10,7 @@ import { Partners, ClosingCta } from '@/pages/about/PartnersCta'
 
 export default function About() {
   useEffect(() => {
-    document.title = 'About Us — LightBridge Foundation'
+    document.title = 'About Us | LightBridge Foundation'
   }, [])
 
   return (
@@ -26,7 +26,7 @@ export default function About() {
           { text: 'walks' },
           { text: 'alone', gold: true },
         ]}
-        lead="LightBridge Foundation is a volunteer-led Public Benevolent Institution — a grassroots non-profit made up primarily of African immigrants and refugees, delivering culturally led services across Western Sydney, NSW."
+        lead="LightBridge Foundation is a volunteer-led Public Benevolent Institution, a grassroots non-profit made up primarily of African immigrants and refugees, delivering culturally led services across Western Sydney, NSW."
         breadcrumb="About Us"
       />
       <StorySection />

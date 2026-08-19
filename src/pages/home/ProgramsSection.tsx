@@ -33,7 +33,7 @@ const PROGRAMS: Program[] = [
     Icon: Sparkles,
     title: 'Youth Empowerment',
     summary:
-      'Weekly group for ages 8–24: wellbeing, financial literacy, life skills, mentoring, leadership.',
+      'Weekly group for ages 8-24: wellbeing, financial literacy, life skills, mentoring, leadership.',
     anchor: '#youth',
   },
   {
@@ -77,7 +77,7 @@ export default function ProgramsSection() {
               Programs that <span className="italic text-gold-500">empower</span>
             </>
           }
-          lead="Six community-driven programs, one goal — a connected, thriving Western Sydney where everyone can flourish."
+          lead="Six community-driven programs, one goal, a connected, thriving Western Sydney where everyone can flourish."
         />
 
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">

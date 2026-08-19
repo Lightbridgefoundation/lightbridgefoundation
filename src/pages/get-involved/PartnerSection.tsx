@@ -24,7 +24,7 @@ const PARTNER_TYPES: PartnerType[] = [
   {
     Icon: Briefcase,
     title: 'Skills & Services',
-    blurb: 'Pro bono expertise — training, health, legal, education.',
+    blurb: 'Pro bono expertise, training, health, legal, education.',
   },
   {
     Icon: Users,
@@ -68,7 +68,7 @@ export default function PartnerSection({ onPartner }: { onPartner: () => void })
             >
               We partner with businesses, community organisations, councils,
               schools, service providers and philanthropic foundations. Whether
-              it's funding, food, venues, expertise or volunteers — partnership
+              it's funding, food, venues, expertise or volunteers, partnership
               multiplies every outcome.
             </motion.p>
             <motion.p

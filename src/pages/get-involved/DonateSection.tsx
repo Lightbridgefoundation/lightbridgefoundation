@@ -89,7 +89,7 @@ export default function DonateSection() {
           >
             We have no salaries, no honorariums, no admin overheads. Your
             donation helps us extend our faith-driven, grassroots services
-            across Holroyd and beyond — funding food relief, vulnerable
+            across Holroyd and beyond, funding food relief, vulnerable
             families, youth programs, community activities and local
             partnerships, directly. Choose a one-time gift or become a monthly
             supporter.

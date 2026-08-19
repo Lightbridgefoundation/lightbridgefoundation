@@ -6,7 +6,7 @@ import SectionHeading from '@/components/SectionHeading'
 const EASE = [0.22, 1, 0.36, 1] as [number, number, number, number]
 
 const CHECKLIST = [
-  '100% volunteer-run — no paid staff',
+  '100% volunteer-run, no paid staff',
   'Culturally safe, faith-rooted, community-driven programs',
   'Serving communities across 7 Western Sydney LGAs',
 ]
@@ -70,8 +70,8 @@ export default function WhoWeAre() {
             className="mt-6 space-y-5"
           >
             {[
-              'LightBridge Foundation is a grassroots, 100% volunteer-led charity based in Western Sydney, NSW — made up primarily of African immigrants and refugees. Rooted in faith and cultural consciousness, we deliver culturally led services that uplift and empower families and individuals, promoting wellbeing, belonging and social cohesion.',
-              'From our Holroyd hub, we walk alongside our neighbours — for community, by community. Weekly food relief, youth mentoring, casework and beach excursions that change lives: we connect communities, empower futures and create opportunities.',
+              'LightBridge Foundation is a grassroots, 100% volunteer-led charity based in Western Sydney, NSW, made up primarily of African immigrants and refugees. Rooted in faith and cultural consciousness, we deliver culturally led services that uplift and empower families and individuals, promoting wellbeing, belonging and social cohesion.',
+              'From our Holroyd hub, we walk alongside our neighbours, for community, by community. Weekly food relief, youth mentoring, casework and beach excursions that change lives: we connect communities, empower futures and create opportunities.',
             ].map((paragraph) => (
               <motion.p
                 key={paragraph.slice(0, 24)}

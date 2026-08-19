@@ -23,7 +23,7 @@ const NODES: Node[] = [
   { label: 'Stability', description: 'Casework and advocacy through the hard moments.', x: 320, y: 145 },
   { label: 'Connection', description: 'Community support and referrals open every door.', x: 600, y: 120 },
   { label: 'Growth', description: 'Youth programs build skills and confidence.', x: 880, y: 145 },
-  { label: 'Leadership', description: 'Cultural stages — and giving back to others.', x: 1160, y: 220 },
+  { label: 'Leadership', description: 'Cultural stages and giving back to others.', x: 1160, y: 220 },
 ]
 
 export default function JourneyBand() {

@@ -32,7 +32,7 @@ export default function Footer() {
         <div>
           <Logo reversed />
           <p className="mt-5 max-w-xs text-[0.95rem] leading-[1.7] text-white/70">
-            Bridging hope and community — supporting culturally diverse families
+            Bridging hope and community, supporting culturally diverse families
             across Western Sydney, 100% volunteer-run.
           </p>
           <div className="mt-6 flex gap-3">
@@ -110,7 +110,7 @@ export default function Footer() {
             </li>
             <li>ABN 89 859 003 724</li>
             <li className="text-white/60">
-              Registered with the ACNC — Public Benevolent Institution
+              Registered with the ACNC, Public Benevolent Institution
             </li>
           </ul>
         </div>

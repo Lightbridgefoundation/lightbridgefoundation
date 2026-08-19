@@ -77,7 +77,7 @@ export default function FeaturedStory({ story, onOpen }: FeaturedStoryProps) {
           <motion.p variants={itemVariants} className="mt-6 leading-[1.7] text-grey-500">
             For many of the families who boarded our buses to Port Kembla Beach
             on 4 January 2025, it was the first time they had ever seen the
-            ocean. A day of swimming, shared food and laughter — stress easing,
+            ocean. A day of swimming, shared food and laughter, stress easing,
             wellbeing lifting, and a community knitting itself closer together.
           </motion.p>
 
@@ -98,7 +98,7 @@ export default function FeaturedStory({ story, onOpen }: FeaturedStoryProps) {
                 when we can go back.
               </p>
               <footer className="mt-3 font-inter text-[0.85rem] font-medium text-grey-500">
-                — A mother from Holroyd
+               , A mother from Holroyd
               </footer>
             </div>
           </motion.blockquote>

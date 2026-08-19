@@ -41,7 +41,7 @@ export default function ClosingCta() {
           transition={{ duration: 0.8, ease: EASE, delay: 0.1 }}
           className="mx-auto mt-6 max-w-[560px] text-[clamp(1.1rem,1.6vw,1.3rem)] leading-[1.65] text-white/85"
         >
-          Skip the inbox — become a volunteer or make a donation right now.
+          Skip the inbox, become a volunteer or make a donation right now.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 32 }}

@@ -4,12 +4,12 @@ import { EASE, GhostLink, GoldDonateButton } from '@/pages/programs/shared'
 
 const EXCURSIONS = [
   {
-    title: 'Port Kembla Beach — 4 Jan 2025',
+    title: 'Port Kembla Beach · 4 Jan 2025',
     text: '56 CALD participants; many families experienced the beach for the first time; improved wellbeing and reduced stress.',
   },
   {
-    title: 'Northern Beaches — 10 Jan 2026',
-    text: 'Our second major excursion with 56 participants, strengthening family–volunteer relationships.',
+    title: 'Northern Beaches · 10 Jan 2026',
+    text: 'Our second major excursion with 56 participants, strengthening family-volunteer relationships.',
   },
 ]
 

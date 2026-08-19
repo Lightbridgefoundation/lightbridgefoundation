@@ -31,7 +31,7 @@ export function Youth() {
       <div className="relative mx-auto grid w-full max-w-container items-center gap-16 px-6 py-[clamp(80px,10vw,140px)] lg:grid-cols-2 lg:px-12">
         {/* Copy left */}
         <div>
-          <ProgramHeading dark eyebrow="Program 02 · Ages 8–24" title="Youth Empowerment & Development" />
+          <ProgramHeading dark eyebrow="Program 02 · Ages 8-24" title="Youth Empowerment & Development" />
           <motion.p
             initial={{ opacity: 0, y: 32 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -41,7 +41,7 @@ export function Youth() {
           >
             Fifteen young people meet weekly to grow into confident community
             leaders. Sessions blend mental wellbeing, financial literacy, life
-            skills, hygiene education, mentoring and community leadership —
+            skills, hygiene education, mentoring and community leadership , 
             all in a safe, culturally proud space. As they grow, capacity
             building continues with employment support and referral services
             that help young people find stability and growth beyond the group.
@@ -64,7 +64,7 @@ export function Youth() {
 
           <div className="mt-9 grid grid-cols-3 gap-6 border-t border-white/15 pt-7">
             <MiniStat dark value={15} label="young people weekly" index={0} />
-            <MiniStat dark display="8–24" label="age range" index={1} />
+            <MiniStat dark display="8-24" label="age range" index={1} />
             <MiniStat dark value={100} suffix="%" label="free" index={2} />
           </div>
 
@@ -144,8 +144,8 @@ export function Cultural() {
             className="mt-6 leading-[1.7] text-white/85"
           >
             Our cultural programs carry African heritage onto Western Sydney's
-            biggest stages — cultural dance, acting and singing tailored to
-            the community's needs — building confidence, cultural identity and
+            biggest stages, cultural dance, acting and singing tailored to
+            the community's needs, building confidence, cultural identity and
             leadership in young performers while keeping culture alive across
             generations.
           </motion.p>

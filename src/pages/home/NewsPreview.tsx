@@ -11,7 +11,7 @@ const STORIES = [
     pill: 'Jan 2025',
     title: '56 families, one beach, a lifetime first',
     excerpt:
-      'Our annual Port Kembla excursion gave families their very first day by the ocean — a day of laughter, swimming and belonging.',
+      'Our annual Port Kembla excursion gave families their very first day by the ocean, a day of laughter, swimming and belonging.',
   },
   {
     image: '/cultural-dance.jpg',
@@ -19,12 +19,12 @@ const STORIES = [
     pill: '2025',
     title: 'Youth dancers light up Blacktown Festival',
     excerpt:
-      'Our Cultural Youth Dance Group celebrated African heritage on stage — building confidence, pride and leadership.',
+      'Our Cultural Youth Dance Group celebrated African heritage on stage, building confidence, pride and leadership.',
   },
   {
     image: '/hampers-milestone.jpg',
     alt: 'Two volunteers high-fiving in front of a wall of stacked food hamper boxes',
-    pill: '2024–25',
+    pill: '2024-25',
     title: '2,000 hampers and counting',
     excerpt:
       'A volunteer-powered food relief milestone: more than 2,000 hampers packed and delivered to local families.',

@@ -33,7 +33,7 @@ const TOPICS: { value: Topic; label: string }[] = [
 ]
 
 const PLACEHOLDERS: Record<Topic, string> = {
-  support: "Tell us a little about what's going on — it's confidential.",
+  support: "Tell us a little about what's going on, it's confidential.",
   volunteer: 'Tell us which roles interest you and your availability…',
   partner: 'Tell us about your organisation and your partnership idea…',
   donate: "Tell us how you'd like to give…",
@@ -65,7 +65,7 @@ const INFO_CARDS = [
     title: 'Email',
     value: 'info@lightbridgefoundation.org.au',
     href: 'mailto:info@lightbridgefoundation.org.au',
-    desc: 'Best for everything — support, volunteering, partnerships, donations.',
+    desc: 'Best for everything, support, volunteering, partnerships, donations.',
   },
   {
     Icon: MapPin,
@@ -188,7 +188,7 @@ export default function ContactSplit() {
                     />
                   </svg>
                   <h3 className="mt-6 font-fraunces text-[clamp(1.25rem,2vw,1.6rem)] font-semibold text-navy-800">
-                    Message received — thank you!
+                    Message received, thank you!
                   </h3>
                   <p className="mx-auto mt-3 max-w-[440px] leading-[1.7] text-grey-500">
                     A volunteer will reply to you at the email you provided. You

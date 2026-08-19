@@ -48,12 +48,12 @@ function ImagePanel() {
           Story of Hope
         </p>
         <h3 className="mt-4 font-fraunces text-[clamp(1.75rem,3vw,2.5rem)] font-semibold leading-[1.15] text-white">
-          Port Kembla Beach — January 2025
+          Port Kembla Beach · January 2025
         </h3>
         <p className="mt-6 max-w-[520px] text-[clamp(1.05rem,1.4vw,1.2rem)] leading-[1.7] text-white/80">
           56 community members joined our annual excursion. Families who had
           never felt the sand between their toes spent a day laughing, swimming
-          and belonging — stress easing, wellbeing lifting, community bonding.
+          and belonging, stress easing, wellbeing lifting, community bonding.
         </p>
       </div>
     </div>
@@ -133,7 +133,7 @@ export default function StoryHighlight() {
         'relative overflow-hidden bg-navy-800',
         !reduced && 'flex h-[100dvh] items-center',
       )}
-      aria-label="Story highlight — Port Kembla beach excursion"
+      aria-label="Story highlight: Port Kembla beach excursion"
     >
       <div className="texture-dots pointer-events-none absolute inset-0 opacity-[0.05]" aria-hidden="true" />
       {reduced ? (

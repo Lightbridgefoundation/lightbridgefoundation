@@ -7,7 +7,7 @@ import Footer from '@/components/Footer'
 import DonateModal from '@/components/DonateModal'
 
 /**
- * Shared site shell (children pattern — wraps <Routes> in App.tsx).
+ * Shared site shell (children pattern, wraps <Routes> in App.tsx).
  * Navbar is `sticky top-0 z-50` in normal flow, so pages need no
  * nav-height offset bookkeeping.
  */

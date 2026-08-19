@@ -23,11 +23,11 @@ export default function ReportSpotlight() {
             <FileText className="h-6 w-6 text-gold-500" strokeWidth={1.75} aria-hidden="true" />
           </div>
           <h3 className="mt-6 font-fraunces text-[clamp(1.25rem,2vw,1.6rem)] font-semibold leading-[1.25] text-white">
-            2024–2025 Annual Report
+            2024-2025 Annual Report
           </h3>
           <p className="mt-3 flex-1 leading-[1.7] text-white/75">
-            Our full annual report — programs, governance, financials and
-            impact — is available on request.
+            Our full annual report, programs, governance, financials and
+            impact, is available on request.
           </p>
           <a
             href={REPORT_MAILTO}
@@ -53,7 +53,7 @@ export default function ReportSpotlight() {
             Have a LightBridge story?
           </h3>
           <p className="mt-3 flex-1 leading-[1.7] text-navy-800/75">
-            Volunteer, family, partner or friend — if our community has touched
+            Volunteer, family, partner or friend, if our community has touched
             your life, we&apos;d love to hear from you.
           </p>
           <Link

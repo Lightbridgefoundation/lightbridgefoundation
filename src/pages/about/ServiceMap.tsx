@@ -225,12 +225,12 @@ export default function ServiceMap() {
             ))}
           </svg>
           <p className="mt-4 text-center text-[0.8rem] font-medium text-white/50">
-            Stylised service-area map — hover or focus a gold dot to see the community
+            Stylised service-area map, hover or focus a gold dot to see the community
           </p>
         </motion.div>
       </div>
 
-      {/* Activity Map — LGA breakdown */}
+      {/* Activity Map, LGA breakdown */}
       <div className="relative mx-auto w-full max-w-container px-6 pb-[clamp(80px,10vw,140px)] lg:px-12">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -240,7 +240,7 @@ export default function ServiceMap() {
           className="text-center"
         >
           <h3 className="font-fraunces text-[clamp(1.5rem,2.8vw,2.25rem)] font-semibold leading-[1.2] text-white">
-            Activity Map — <span className="italic text-gold-400">seven LGAs</span>
+            Activity Map, <span className="italic text-gold-400">seven LGAs</span>
           </h3>
           <p className="mx-auto mt-3 max-w-[560px] text-[0.95rem] leading-[1.65] text-white/70">
             Our programs reach families across seven local government areas of

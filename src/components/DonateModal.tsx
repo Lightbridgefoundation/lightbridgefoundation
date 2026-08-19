@@ -127,7 +127,7 @@ export default function DonateModal() {
                 Donate Today
               </a>
               <p className="mt-4 text-center text-[0.85rem] font-medium leading-[1.5] text-grey-500">
-                LightBridge Foundation is 100% volunteer-run — every dollar goes
+                LightBridge Foundation is 100% volunteer-run, every dollar goes
                 directly to charitable programs.
               </p>
             </div>

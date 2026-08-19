@@ -128,7 +128,7 @@ export default function StoryModal({ story, onClose }: StoryModalProps) {
                   {story.quote.text}
                 </p>
                 <footer className="mt-3 font-inter text-[0.85rem] font-medium text-grey-500">
-                  — {story.quote.attribution}
+                 , {story.quote.attribution}
                 </footer>
               </blockquote>
 

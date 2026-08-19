@@ -7,7 +7,7 @@ import ClosingCta from '@/pages/contact/ClosingCta'
 
 export default function Contact() {
   useEffect(() => {
-    document.title = 'Contact Us — LightBridge Foundation'
+    document.title = 'Contact Us | LightBridge Foundation'
   }, [])
 
   return (

@@ -11,7 +11,7 @@ export default function Logo({ reversed = false, className }: LogoProps) {
   return (
     <Link
       to="/"
-      aria-label="LightBridge Foundation — home"
+      aria-label="LightBridge Foundation, home"
       className={cn('flex items-center gap-3', className)}
     >
       <img

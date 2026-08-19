@@ -31,7 +31,7 @@ const ROLES: Role[] = [
     Icon: GraduationCap,
     title: 'Youth Mentoring',
     commitment: 'Weekly · Blacktown area',
-    blurb: 'Guide young people (8–24) through life skills, study and confidence.',
+    blurb: 'Guide young people (8-24) through life skills, study and confidence.',
   },
   {
     Icon: CalendarHeart,
@@ -101,7 +101,7 @@ export default function VolunteerSection({ onApply }: { onApply: () => void }) {
               schedule and skill set.
             </p>
             <p className="mt-4 max-w-[420px] text-[0.95rem] font-medium leading-[1.7] text-navy-800">
-              Our team is primarily made up of African immigrants and refugees —
+              Our team is primarily made up of African immigrants and refugees , 
               when you volunteer, you join a culturally led community effort,
               for community and by community.
             </p>

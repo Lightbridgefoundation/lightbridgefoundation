@@ -71,7 +71,7 @@ export default function FaithHeritage() {
 
           <div className="mt-8 space-y-5">
             {[
-              'LightBridge Foundation collaborates closely with Favourite Child Church — formerly Mustard Seed Chapel International — and its various community church branches across Western Sydney.',
+              'LightBridge Foundation collaborates closely with Favourite Child Church, formerly Mustard Seed Chapel International, and its various community church branches across Western Sydney.',
               'Our work is deeply rooted in faith, and in the values of love, care and compassion that our church family has lived out for years. It is this faith that calls us to serve, and this community that shows us how.',
             ].map((text, i) => (
               <motion.p

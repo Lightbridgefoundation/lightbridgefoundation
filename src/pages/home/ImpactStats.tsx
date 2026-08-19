@@ -77,13 +77,13 @@ export default function ImpactStats() {
       <div className="relative mx-auto w-full max-w-container px-6 py-[clamp(80px,10vw,140px)] lg:px-12">
         <SectionHeading
           dark
-          eyebrow="Our Impact 2024–2025"
+          eyebrow="Our Impact 2024-2025"
           title={
             <>
               Small team. <span className="italic text-gold-400">Enormous heart.</span>
             </>
           }
-          lead="Every number below is a family, a young person, a future — powered entirely by volunteers."
+          lead="Every number below is a family, a young person, a future, powered entirely by volunteers."
         />
         <div className="mt-16 grid grid-cols-2 gap-8 lg:grid-cols-4">
           {STATS_ROW_ONE.map((stat, i) => (

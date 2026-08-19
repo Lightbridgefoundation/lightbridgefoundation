@@ -159,8 +159,8 @@ export default function Hero() {
             data-hero-lead
             className="mt-8 max-w-[560px] text-[clamp(1.1rem,1.6vw,1.3rem)] leading-[1.65] text-white/85"
           >
-            LightBridge Foundation is 100% volunteer-run. Everything we do —
-            every hamper, every youth session, every beach day — happens
+            LightBridge Foundation is 100% volunteer-run. Everything we do , 
+            every hamper, every youth session, every beach day, happens
             because someone like you showed up.
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">

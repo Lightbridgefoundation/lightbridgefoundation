@@ -16,7 +16,7 @@ export default function News() {
 
   useEffect(() => {
     const previous = document.title
-    document.title = 'News & Stories — LightBridge Foundation'
+    document.title = 'News & Stories | LightBridge Foundation'
     return () => {
       document.title = previous
     }
