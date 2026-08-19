@@ -4,7 +4,27 @@ module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        fraunces: ["Fraunces", "Georgia", "serif"],
+        inter: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+      },
       colors: {
+        navy: {
+          900: "#0E2A47",
+          800: "#163A5F",
+          600: "#2A5580",
+          100: "#DCE7F2",
+        },
+        gold: {
+          500: "#D4A017",
+          400: "#E5B93E",
+          100: "#FBF3DC",
+        },
+        grey: {
+          50: "#F5F7FA",
+          500: "#5A6B7E",
+        },
+        ink: "#1B2A3A",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -58,6 +78,12 @@ module.exports = {
       },
       boxShadow: {
         xs: "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+        card: "0 8px 30px rgba(14,42,71,0.10)",
+        "card-hover": "0 16px 48px rgba(14,42,71,0.16)",
+        "gold-glow": "0 8px 24px rgba(212,160,23,0.35)",
+      },
+      maxWidth: {
+        container: "1200px",
       },
       keyframes: {
         "accordion-down": {
@@ -72,11 +98,21 @@ module.exports = {
           "0%,70%,100%": { opacity: "1" },
           "20%,50%": { opacity: "0" },
         },
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-50%)" },
+        },
+        "scroll-cue": {
+          "0%,100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(8px)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "caret-blink": "caret-blink 1.25s ease-out infinite",
+        marquee: "marquee 30s linear infinite",
+        "scroll-cue": "scroll-cue 1.6s ease-in-out infinite",
       },
     },
   },
