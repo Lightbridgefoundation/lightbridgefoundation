@@ -9,25 +9,25 @@ const STORIES = [
     image: '/real-excursion-beach.jpg',
     alt: 'LightBridge community members gathered by the sea at the Port Kembla Beach excursion',
     pill: 'Jan 2025',
-    title: 'Port Kembla Beach: a day of firsts',
+    title: 'Port Kembla Beach: community by the sea',
     excerpt:
-      'On 4 January 2025, 56 participants joined our excursion to Port Kembla Beach, many families experiencing the beach for the first time.',
+      'On 4 January 2025, 56 participants joined our excursion to Port Kembla Beach, a day of connection, cohesion and belonging.',
   },
   {
-    image: '/cultural-dance.jpg',
-    alt: 'Youth dancers in vibrant African dress performing on an outdoor festival stage',
+    image: '/real-excursion-city.jpg',
+    alt: 'Young LightBridge community members together during a group outing',
     pill: '2025',
     title: 'Youth dancers light up Blacktown Festival',
     excerpt:
       'Our Cultural Youth Dance Group celebrated African heritage on stage, building confidence, pride and leadership.',
   },
   {
-    image: '/hampers-milestone.jpg',
-    alt: 'Two volunteers high-fiving in front of a wall of stacked food hamper boxes',
+    image: '/real-outreach-bags-close.jpg',
+    alt: 'Packed food hampers ready for distribution at a LightBridge outreach',
     pill: '2024-25',
-    title: '2,000 hampers and counting',
+    title: '300 hampers and counting',
     excerpt:
-      'A volunteer-powered food relief milestone: more than 2,000 hampers packed and delivered to local families.',
+      'A volunteer-powered food relief milestone: more than 300 hampers packed and shared with local families.',
   },
 ]
 

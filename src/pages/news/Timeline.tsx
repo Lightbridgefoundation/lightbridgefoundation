@@ -14,11 +14,11 @@ const MILESTONES = [
   },
   {
     date: '2024-25',
-    text: '2,000+ food hampers distributed across Western Sydney.',
+    text: '300+ food hampers distributed across Western Sydney.',
   },
   {
     date: '4 January 2025',
-    text: 'Port Kembla Beach excursion, 56 CALD participants, many seeing the ocean for the first time.',
+    text: 'Port Kembla Beach excursion, 56 CALD participants, building connection, cohesion and belonging.',
   },
   {
     date: '2025',

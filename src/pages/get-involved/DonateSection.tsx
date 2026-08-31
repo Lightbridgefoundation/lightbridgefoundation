@@ -30,7 +30,7 @@ export default function DonateSection() {
       <div
         className="absolute inset-y-0 right-0 hidden w-1/2 opacity-[0.15] md:block"
         style={{
-          backgroundImage: 'url(/food-relief.jpg)',
+          backgroundImage: 'url(/real-outreach-bags-row.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           maskImage: 'linear-gradient(to right, transparent, black 55%)',

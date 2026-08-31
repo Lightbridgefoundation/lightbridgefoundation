@@ -4,7 +4,7 @@ const EASE = [0.22, 1, 0.36, 1] as [number, number, number, number]
 
 const PARAGRAPHS = [
   'LightBridge Foundation, formerly known as Favourite Child Care Inc, is a non-profit organisation made up primarily of African immigrants and refugees. We grew from a simple truth: in Western Sydney\u2019s richly diverse neighbourhoods, too many newly arrived families, women escaping violence, and young people were falling through the gaps, unseen by systems that weren\u2019t built with them in mind.',
-  'So our community built the bridge itself. For Community, By Community: our volunteers, locals, parents, students, community leaders, deliver culturally led grassroots services tailored to the unique needs of our people. Weekly food relief. A youth group. Casework for families in crisis. Beach days for children who had never seen the ocean. Cultural stages where young dancers reclaim their heritage with pride.',
+  'So our community built the bridge itself. For Community, By Community: our volunteers, locals, parents, students, community leaders, deliver culturally led grassroots services tailored to the unique needs of our people. Weekly food relief. A youth group. Casework for families in crisis. Beach excursions that bring a community closer together. Cultural stages where young dancers reclaim their heritage with pride.',
   'Today, as LightBridge Foundation, we carry that same grassroots heart under a new name and a renewed promise: bridging hope, building community, empowering futures.',
 ]
 

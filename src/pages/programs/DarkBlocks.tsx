@@ -204,8 +204,8 @@ export function Cultural() {
           />
           <div className="relative overflow-hidden rounded-[20px] shadow-card">
             <img
-              src="/cultural-dance.jpg"
-              alt="The Cultural Youth Dance Group in vibrant African dress performing on an outdoor festival stage"
+              src="/real-excursion-city.jpg"
+              alt="Young LightBridge community members together during a group outing"
               loading="lazy"
               className="aspect-[4/3] w-full object-cover transition-transform duration-[600ms] ease-out hover:scale-105"
             />

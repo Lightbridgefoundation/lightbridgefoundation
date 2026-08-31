@@ -95,8 +95,8 @@ export default function Hero() {
       {/* Background photo + mirrored navy scrim + texture */}
       <div className="absolute inset-0" data-hero-bg>
         <img
-          src="/volunteers-team.jpg"
-          alt="A team of diverse LightBridge Foundation volunteers laughing together in a community hall"
+          src="/real-outreach-group.jpg"
+          alt="LightBridge Foundation volunteers at a community food hamper outreach in Merrylands"
           className="h-[115%] w-full object-cover"
           fetchPriority="high"
         />

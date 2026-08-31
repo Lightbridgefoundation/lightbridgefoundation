@@ -5,7 +5,7 @@ import { EASE, GhostLink, GoldDonateButton } from '@/pages/programs/shared'
 const EXCURSIONS = [
   {
     title: 'Port Kembla Beach · 4 Jan 2025',
-    text: '56 CALD participants; many families experienced the beach for the first time; improved wellbeing and reduced stress.',
+    text: '56 CALD participants; a day of community cohesion and connection; improved wellbeing and reduced stress.',
   },
   {
     title: 'Northern Beaches · 10 Jan 2026',
@@ -27,7 +27,7 @@ export default function Excursions() {
         <div className="relative overflow-hidden rounded-[24px] shadow-card">
           <motion.img
             src="/real-excursion-beach.jpg"
-            alt="CALD families and volunteers together at the Port Kembla Beach excursion, many experiencing the ocean for the first time"
+            alt="CALD families and volunteers together at the Port Kembla Beach excursion"
             loading="lazy"
             initial={{ scale: 1.15, y: '-4%' }}
             whileInView={{ scale: 1.15, y: '4%' }}
@@ -74,8 +74,8 @@ export default function Excursions() {
           </svg>
           <p className="mt-5 leading-[1.7] text-grey-500">
             Social isolation melts when communities share joy. Our annual beach
-            excursions and family recreation days give CALD families
-            experiences many have never had.
+            excursions and family recreation days build connection, cohesion
+            and belonging for CALD families.
           </p>
 
           <div className="mt-7 space-y-4">

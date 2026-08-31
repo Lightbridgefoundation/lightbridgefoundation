@@ -17,8 +17,8 @@ export function FoodRelief() {
     <section id="food-relief" className="scroll-mt-[88px] bg-white" aria-label="Weekly Food Relief">
       <div className="mx-auto grid w-full max-w-container items-center gap-16 px-6 py-[clamp(80px,10vw,140px)] lg:grid-cols-2 lg:px-12">
         <FramedImage
-          src="/food-relief.jpg"
-          alt="Volunteers' hands arranging packed food hampers of fresh produce and pantry staples"
+          src="/real-outreach-chat.jpg"
+          alt="Volunteers talking with community members beside packed food hampers at a LightBridge outreach in Merrylands"
           badge="40+ supported weekly"
         />
         <div>
@@ -48,7 +48,7 @@ export function FoodRelief() {
             ]}
           />
           <div className="mt-9 grid grid-cols-3 gap-6 border-t border-navy-100 pt-7">
-            <MiniStat value={2000} suffix="+" label="hampers distributed" index={0} />
+            <MiniStat value={300} suffix="+" label="hampers distributed" index={0} />
             <MiniStat value={40} suffix="+" label="supported weekly" index={1} />
             <MiniStat display="100%" label="volunteer-powered" index={2} />
           </div>
@@ -69,8 +69,8 @@ export function Casework() {
     <section id="casework" className="scroll-mt-[88px] bg-white" aria-label="Casework and Advocacy">
       <div className="mx-auto grid w-full max-w-container items-center gap-16 px-6 py-[clamp(80px,10vw,140px)] lg:grid-cols-2 lg:px-12">
         <FramedImage
-          src="/casework-support.jpg"
-          alt="A support worker and a woman in warm conversation over tea at a community centre table"
+          src="/real-outreach-handover.jpg"
+          alt="A volunteer in conversation with a community member while handing over food hampers"
           badge="9 individuals supported in 2024-25"
         />
         <div>

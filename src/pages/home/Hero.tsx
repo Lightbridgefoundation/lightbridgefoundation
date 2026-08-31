@@ -100,8 +100,8 @@ export default function Hero() {
       {/* Background image + scrim + texture */}
       <div className="absolute inset-0" data-hero-bg>
         <img
-          src="/hero-home.jpg"
-          alt="Families and volunteers walking together across a pedestrian bridge at dawn in warm golden light"
+          src="/real-outreach-group.jpg"
+          alt="LightBridge Foundation volunteers and community members together at a food hamper outreach in Merrylands"
           className="h-[115%] w-full object-cover"
           fetchPriority="high"
         />

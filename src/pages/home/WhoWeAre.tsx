@@ -42,7 +42,7 @@ export default function WhoWeAre() {
               <PackageOpen className="h-6 w-6 text-gold-500" aria-hidden="true" />
             </span>
             <span>
-              <span className="block font-fraunces text-2xl font-bold text-navy-800">2,000+</span>
+              <span className="block font-fraunces text-2xl font-bold text-navy-800">300+</span>
               <span className="block text-[0.85rem] font-medium text-grey-500">
                 food hampers distributed
               </span>

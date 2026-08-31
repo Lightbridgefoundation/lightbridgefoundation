@@ -9,7 +9,7 @@ import { cn } from '@/lib/utils'
 gsap.registerPlugin(ScrollTrigger, useGSAP)
 
 const QUOTE =
-  'For many families, it was their first ever experience of the beach.'
+  'A day by the sea, bringing a community closer together.'
 
 function QuotePanel() {
   return (
@@ -51,10 +51,9 @@ function ImagePanel() {
           Port Kembla Beach · January 2025
         </h3>
         <p className="mt-6 max-w-[520px] text-[clamp(1.05rem,1.4vw,1.2rem)] leading-[1.7] text-white/80">
-          56 participants joined our community excursion to Port Kembla Beach.
-          For many families it was their first ever experience of the beach, a
-          day of safe recreation that improved wellbeing, reduced stress and
-          strengthened connection and belonging.
+          56 participants joined our community excursion to Port Kembla Beach,
+          a day of safe recreation that improved wellbeing, reduced stress and
+          strengthened connection, cohesion and belonging.
         </p>
       </div>
     </div>
