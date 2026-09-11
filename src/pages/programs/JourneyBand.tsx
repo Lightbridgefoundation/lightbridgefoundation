@@ -100,7 +100,7 @@ export default function JourneyBand() {
             <path
               d="M40 220 Q600 20 1160 220"
               fill="none"
-              stroke="#D4A017"
+              stroke="#E3A63F"
               strokeWidth={3}
               strokeLinecap="round"
               pathLength={1}

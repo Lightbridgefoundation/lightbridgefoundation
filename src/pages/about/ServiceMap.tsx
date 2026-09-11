@@ -81,7 +81,7 @@ function MapDot({ suburb, index }: { suburb: Suburb; index: number }) {
         cy={suburb.y}
         r={suburb.hub ? 12 : 8}
         fill="none"
-        stroke="#E5B93E"
+        stroke="#EBB04D"
         strokeWidth={2}
         initial={{ scale: 0, opacity: 0.8 }}
         whileInView={{ scale: 1.6, opacity: 0 }}
@@ -97,8 +97,8 @@ function MapDot({ suburb, index }: { suburb: Suburb; index: number }) {
         cx={suburb.x}
         cy={suburb.y}
         r={suburb.hub ? 10 : 7}
-        fill="#D4A017"
-        stroke="#0E2A47"
+        fill="#E3A63F"
+        stroke="#101F38"
         strokeWidth={2.5}
         className="transition-all duration-300 group-hover:fill-gold-400"
       />
@@ -120,7 +120,7 @@ function MapDot({ suburb, index }: { suburb: Suburb; index: number }) {
           x={suburb.x}
           y={suburb.y - 27}
           textAnchor="middle"
-          fill="#163A5F"
+          fill="#182A44"
           fontSize={suburb.hub ? 11 : 12}
           fontWeight={600}
           fontFamily="Inter, sans-serif"
@@ -204,7 +204,7 @@ export default function ServiceMap() {
             aria-label="Stylised map of Western Sydney showing the twelve communities LightBridge Foundation serves"
           >
             {/* Abstract region shapes */}
-            <g fill="#2A5580" opacity={0.35}>
+            <g fill="#2E4A6B" opacity={0.35}>
               <rect x={60} y={180} width={180} height={190} rx={48} />
               <rect x={200} y={80} width={200} height={170} rx={48} />
               <rect x={280} y={200} width={220} height={160} rx={48} />
@@ -214,7 +214,7 @@ export default function ServiceMap() {
             <path
               d="M100 242 Q300 60 474 330"
               fill="none"
-              stroke="#D4A017"
+              stroke="#E3A63F"
               strokeWidth={2}
               strokeDasharray="6 8"
               opacity={0.4}

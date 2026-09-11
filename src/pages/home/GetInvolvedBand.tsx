@@ -54,7 +54,7 @@ export default function GetInvolvedBand() {
         className="pointer-events-none absolute -top-10 left-0 w-full opacity-[0.08]"
         preserveAspectRatio="none"
       >
-        <path d="M0 220 Q720 -40 1440 220" fill="none" stroke="#163A5F" strokeWidth="10" />
+        <path d="M0 220 Q720 -40 1440 220" fill="none" stroke="#182A44" strokeWidth="10" />
       </svg>
 
       <div className="relative mx-auto w-full max-w-container px-6 py-[clamp(80px,10vw,140px)] lg:px-12">

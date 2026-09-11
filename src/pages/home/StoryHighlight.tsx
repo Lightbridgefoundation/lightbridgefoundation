@@ -114,7 +114,7 @@ export default function StoryHighlight() {
       })
 
       // Quote words light up in gold, sequentially
-      tl.to('[data-quote-word]', { opacity: 1, color: '#E5B93E', stagger: 0.04, duration: 0.25 })
+      tl.to('[data-quote-word]', { opacity: 1, color: '#EBB04D', stagger: 0.04, duration: 0.25 })
         // Crossfade to the image panel, image reveals from bottom
         .to('[data-story-panel="quote"]', { opacity: 0, y: -40, duration: 0.12 }, 0.32)
         .to('[data-story-panel="image"]', { opacity: 1, duration: 0.12 }, 0.36)

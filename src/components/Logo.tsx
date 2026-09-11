@@ -17,7 +17,7 @@ export default function Logo({ reversed = false, className }: LogoProps) {
       <img
         src="/logo-badge.png"
         alt=""
-        className="h-10 w-10 rounded-full object-contain"
+        className="h-10 w-auto object-contain"
         aria-hidden="true"
       />
       <span className="flex flex-col leading-none">

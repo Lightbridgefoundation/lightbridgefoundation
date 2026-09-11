@@ -60,13 +60,13 @@ export default function DonateModal() {
                 <path
                   d="M-20 95 Q280 -30 580 95"
                   fill="none"
-                  stroke="#D4A017"
+                  stroke="#E3A63F"
                   strokeWidth="5"
                   strokeLinecap="round"
                 />
-                <circle cx="280" cy="34" r="4" fill="#D4A017" />
-                <circle cx="180" cy="52" r="3" fill="#D4A017" opacity="0.7" />
-                <circle cx="380" cy="52" r="3" fill="#D4A017" opacity="0.7" />
+                <circle cx="280" cy="34" r="4" fill="#E3A63F" />
+                <circle cx="180" cy="52" r="3" fill="#E3A63F" opacity="0.7" />
+                <circle cx="380" cy="52" r="3" fill="#E3A63F" opacity="0.7" />
               </svg>
               <div className="absolute left-6 top-5 flex items-center gap-2 text-gold-400">
                 <HeartHandshake className="h-5 w-5" aria-hidden="true" />

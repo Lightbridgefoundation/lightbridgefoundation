@@ -140,8 +140,8 @@ export function Referrals() {
     >
       <div className="mx-auto grid w-full max-w-container items-center gap-16 px-6 py-[clamp(80px,10vw,140px)] lg:grid-cols-2 lg:px-12">
         <FramedImage
-          src="/real-community-art.jpg"
-          alt="A multicultural community family fun day in a Western Sydney park with stalls, families and shared food"
+          src="/real-outreach-group.jpg"
+          alt="LightBridge volunteers and community members together at a food hamper outreach in Merrylands"
           badge="Advocacy, referrals & guidance"
         />
         <div>

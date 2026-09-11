@@ -13,7 +13,7 @@ export default function QuoteBand() {
         className="pointer-events-none absolute -bottom-16 left-0 w-full opacity-[0.06]"
         preserveAspectRatio="none"
       >
-        <path d="M0 220 Q720 -40 1440 220" fill="none" stroke="#163A5F" strokeWidth="10" />
+        <path d="M0 220 Q720 -40 1440 220" fill="none" stroke="#182A44" strokeWidth="10" />
       </svg>
 
       <div className="relative mx-auto w-full max-w-container px-6 py-[clamp(72px,9vw,120px)] lg:px-12">

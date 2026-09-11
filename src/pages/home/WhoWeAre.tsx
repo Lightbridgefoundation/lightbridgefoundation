@@ -25,8 +25,8 @@ export default function WhoWeAre() {
         >
           <div className="relative rounded-[20px] before:absolute before:inset-0 before:translate-x-4 before:translate-y-4 before:rounded-[20px] before:border-2 before:border-gold-500 before:content-['']">
             <img
-              src="/real-community-art.jpg"
-              alt="LightBridge community members sharing food and activities at a community gathering"
+              src="/real-outreach-chat.jpg"
+              alt="LightBridge volunteers talking with community members during a food hamper outreach in Merrylands"
               loading="lazy"
               className="relative aspect-[4/3] w-full rounded-[20px] object-cover shadow-card"
             />

@@ -31,7 +31,10 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <Logo reversed />
-          <p className="mt-5 max-w-xs text-[0.95rem] leading-[1.7] text-white/70">
+          <p className="mt-4 font-fraunces text-[1rem] italic text-gold-400">
+            Lighting the way. Building brighter futures.
+          </p>
+          <p className="mt-4 max-w-xs text-[0.95rem] leading-[1.7] text-white/70">
             Bridging hope and community, supporting culturally diverse families
             across Western Sydney, 100% volunteer-run.
           </p>
