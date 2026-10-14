@@ -1,6 +1,6 @@
 # LightBridge Foundation Website
 
-Official website for **LightBridge Foundation**, a grassroots, 100% volunteer-led charity based in Western Sydney, NSW, made up primarily of African immigrants and refugees.
+Official website for **LightBridge Foundation**, A community‑driven, 100% volunteer‑led organisation in Western Sydney, guided by faith‑based values of compassion and service, supporting migrants, refugees, and local families..
 
 > Lighting the way. Building brighter futures.
 
